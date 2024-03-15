@@ -1,0 +1,104 @@
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+    align-items: center;
+      
+  }
+  
+
+  
+    .about-left{
+  
+      width: 30%;
+      height: 30vw;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-top: 10%;
+     border: 2px solid grey;
+    }
+  
+  
+    .about-left img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+  
+    
+    .about-right {
+      width: 40%;
+      border: 1px solid grey;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     margin-left:2%;
+      margin-top: 15%;
+    }
+    
+    .about-right h3 {
+      font-size: 3.5vw;
+      margin-bottom: 5%; /* Adjust margin */
+    }
+    
+    .about-right h4 {
+      font-size: 2vw;
+      margin-bottom: 5%; /* Adjust margin */
+    }
+   
+    #button-container{
+      width: 100%;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      padding:6%;
+      margin-top: 5%;
+
+    }
+
+
+      a {
+        text-decoration: none;
+        font-size: 1.5vw;
+        text-align: center;
+        transition: 0.7s;
+     
+      }
+
+
+      #button-container a {
+        text-decoration: none;
+        font-size: 1.2vw;
+        text-align: center;
+        transition: 0.7s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:4%;
+        width: 6vw; 
+        height: 6vw; 
+        border-radius:50%;
+      }
+      #resume {
+        background-color: orange; 
+        color: white; 
+      }
+      
+      #projects {
+        background-color: rgb(199, 13, 13); 
+        color: white; 
+      }
+      
+      #contact {
+        background-color: blue; 
+        color: white; 
+      }
+      
+      #button-container  a:hover {
+        background-color: white; /* Change background color to white on hover */
+        color: black; /* Change text color to black on hover */
+      }
+    
