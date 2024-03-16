@@ -9,6 +9,10 @@
 }
 
 
+#hamburger-menu {
+    display:none; /* Show hamburger menu */
+    
+}
 #header a{
     font-size:1.5vw;
     color:black;
@@ -35,7 +39,7 @@
     color: rgb(233, 186, 186); 
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width:768px) {
     #h-right {
         display: none; /* Hide the right section on mobile */
     }

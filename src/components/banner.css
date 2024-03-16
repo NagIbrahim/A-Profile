@@ -101,9 +101,14 @@
         color: black; /* Change text color to black on hover */
       }
     
-      @media only screen and (max-width: 370px) {
+      @media only screen and (max-width:768px) {
         .about {
             flex-direction: column-reverse;
         } 
+
+        .about-right{
+          width:80%;
+          margin:10% 0 0 0;
+        }
        
     }

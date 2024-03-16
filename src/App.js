@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Message from "./components/Message.js";
-import Header from "./components/Header.js";
+import NavBar from "./components/NavBar.js";
 
 
 import  './app.css';
@@ -14,7 +14,7 @@ function App() {
    
       <Router>
       <div  className="app">
-      <Header/>
+      <NavBar/>
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
