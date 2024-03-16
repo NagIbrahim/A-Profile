@@ -35,3 +35,18 @@
     color: rgb(233, 186, 186); 
 }
 
+@media only screen and (max-width: 370px) {
+    #h-right {
+        display: none; /* Hide the right section on mobile */
+    }
+
+    #h-left {
+        width: auto; /* Allow the left section to take full width */
+    }
+
+    #hamburger-menu {
+        display: block; /* Show hamburger menu */
+        font-size: 1.5em; /* Set font size for the hamburger icon */
+        cursor: pointer; /* Add pointer cursor for better UX */
+    }
+}

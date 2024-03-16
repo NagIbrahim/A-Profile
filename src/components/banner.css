@@ -10,9 +10,8 @@
 
   
     .about-left{
-  
-      width: 30%;
-      height: 30vw;
+     /* width: 30%;
+      height: 30vw;*/
       border-radius: 50%;
       overflow: hidden;
       margin-top: 10%;
@@ -102,3 +101,9 @@
         color: black; /* Change text color to black on hover */
       }
     
+      @media only screen and (max-width: 370px) {
+        .about {
+            flex-direction: column-reverse;
+        } 
+       
+    }

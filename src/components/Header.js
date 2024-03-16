@@ -1,4 +1,6 @@
 import React from 'react'
+/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';*/
 import { Link } from "react-router-dom"
 
 import "./header.css"
@@ -30,7 +32,7 @@ export function Header() {
              
              </Link>
           </div>
-
+         {/* <FontAwesomeIcon id="hamburger-menu" icon={faBars} />*/}
          
       </div>
   )
