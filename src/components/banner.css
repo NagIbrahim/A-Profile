@@ -10,8 +10,8 @@
 
   
     .about-left{
-     /* width: 30%;
-      height: 30vw;*/
+      width: 360px;
+      height: 360px;
       border-radius: 50%;
       overflow: hidden;
       margin-top: 10%;
@@ -103,12 +103,13 @@
     
       @media only screen and (max-width:768px) {
         .about {
-            flex-direction: column-reverse;
+  
+           flex-direction: column-reverse;
         } 
 
         .about-right{
-          width:80%;
-          margin:10% 0 0 0;
+          width:90%;
+          margin:15% 0 0 0;
         }
        
     }

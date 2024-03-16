@@ -1,11 +1,17 @@
-import React from 'react'
+import React , { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom"
 
 import "./navbar.css"
 
 export function NavBar() {
+
+        const [showMenu, setShowMenu] = useState(false);
+
+        const toggleMenu = () => {
+            setShowMenu(!showMenu);
+        };
     
   return (
       <div id='header'>
@@ -17,12 +23,12 @@ export function NavBar() {
          </div>
           <div  id='h-right'>
           
-          <Link  to ="/resume">
+          <Link  to ="/resume"  class="v-line">
                 Resume
              
               </Link>
 
-              <Link  to ="/projects">
+              <Link  to ="/projects" class="v-line">
                 Projects
              
              </Link>
@@ -32,7 +38,18 @@ export function NavBar() {
              
              </Link>
           </div>
-          <FontAwesomeIcon id="hamburger-menu" icon={faBars} />
+          <FontAwesomeIcon id="hamburger-menu" icon={showMenu ? faTimes : faBars} onClick={toggleMenu} />
+
+          {showMenu && (
+                <div id="mobile-menu-container">
+                    <FontAwesomeIcon id="close-menu" icon={faTimes} onClick={toggleMenu} />
+                    <div id="mobile-menu">
+                        <Link to="/resume">CV</Link>
+                        <Link to="/projects">Projects</Link>
+                        <Link to="/message">Contact me</Link>
+                    </div>
+                </div>
+            )}
          
       </div>
   )
