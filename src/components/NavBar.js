@@ -12,6 +12,11 @@ export function NavBar() {
         const toggleMenu = () => {
             setShowMenu(!showMenu);
         };
+
+        const closeMenu = () => {
+          setShowMenu(false);
+      };
+  
     
   return (
       <div id='header'>
@@ -44,9 +49,9 @@ export function NavBar() {
                 <div id="mobile-menu-container">
                     <FontAwesomeIcon id="close-menu" icon={faTimes} onClick={toggleMenu} />
                     <div id="mobile-menu">
-                        <Link to="/resume">CV</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/message">Contact me</Link>
+                        <Link to="/resume"  onClick={closeMenu}>CV</Link>
+                        <Link to="/projects"  onClick={closeMenu}>Projects</Link>
+                        <Link to="/message" onClick={closeMenu}>Contact me</Link>
                     </div>
                 </div>
             )}

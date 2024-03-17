@@ -70,15 +70,15 @@
 
       #button-container a {
         text-decoration: none;
-        font-size: 1.2vw;
+        font-size:1.2rem;
         text-align: center;
         transition: 0.7s;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding:4%;
-        width: 6vw; 
-        height: 6vw; 
+        padding:7%;
+        width: 20%; 
+        height: 20%; 
         border-radius:50%;
       }
       #resume {
