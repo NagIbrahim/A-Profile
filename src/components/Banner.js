@@ -6,25 +6,23 @@ import "./banner.css"
 function Banner() {
   return (
     <div className='about'>
-        <div className='about-left'>
+    
+      <div className='about-left'>
         <img src={BanerImg} alt="img" />
         </div>
         <div className='about-right'>
         <div id="txt">
 
-        <h3>Hello</h3>
+        <h1>Hello</h1>
        <h4>About me</h4>
        <div >
-      <p>
+      <p id="p-about">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit
        Sed vestibulum tortor eu mauris aliquet, id congue nisi convallis. Duis id efficitur justo. Donec nec leo sit amet arcu auctor fermentum. Donec id mollis dui.
       </p>
        </div>
 
-        </div>
-     
-       
-      
+        </div> 
        <div id="button-container">
       
        <Link to="/resume" id="resume">
@@ -41,7 +39,9 @@ function Banner() {
 
       </div>
       </div>
-    </div>
+      </div>
+      
+  
   )
 }
 

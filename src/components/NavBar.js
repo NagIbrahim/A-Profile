@@ -21,22 +21,27 @@ export function NavBar() {
   return (
       <div id='header'>
          
-         <div>
-         <Link id='h-left' to ="/home">
-                Name
-              </Link>
-         </div>
+         <div id='h-left'>
+     
+           <Link  to ="/home">
+                  Your Name
+                </Link>
+
+            </div>
+       
           <div  id='h-right'>
           
           <Link  to ="/resume"  class="v-line">
                 Resume
              
               </Link>
+              <div className='vertical-line'></div>
 
               <Link  to ="/projects" class="v-line">
                 Projects
              
              </Link>
+             <div className='vertical-line'></div>
 
              <Link  to ="/message">
               Contact me
