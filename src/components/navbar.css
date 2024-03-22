@@ -27,27 +27,28 @@
 }
 
 #h{
-    width:50px;
-    height:50px;
+    width:30px;
+    height:30px;
     border-radius: 50%;
     text-align: center;
+    margin-right: 20px;
     background-color:#EEA302;
     
 }
 
 #h-left a{
-    font-size:30px;
+    font-size:25px;
     font-weight:600;
 }
 
-#h a{
-    font-size:30px;
+/*#h a{
+    font-size:10px;
     color:#EEA302;
-}
+}*/
 
 #h-j{
     color:black;
-    margin-top:2%;
+    margin-top:1%;
     margin-left:2%;
 }
 
@@ -120,7 +121,7 @@
 }
 
 
-@media only screen and (max-width:768px) {
+/*@media only screen and (max-width:768px) {
     #h-right{
         width:300px;
     } 
@@ -148,7 +149,7 @@
         }
       
 
-}
+}*/
 
 @media only screen and (max-width:425px) {
     #hamburger-menu {

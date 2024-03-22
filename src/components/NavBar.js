@@ -24,9 +24,9 @@ export function NavBar() {
          <div id='h-left'>
           <div id="h">
       
-           <Link  to ="/home">
+          {/* <Link  to ="/home">
                  A
-            </Link>
+               </Link>*/}
           </div>
            <div>
            <Link id="h-n" to ="/home">
