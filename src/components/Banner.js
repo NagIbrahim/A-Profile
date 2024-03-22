@@ -1,15 +1,17 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import BanerImg from "../images/img1.webp";
+import BanerImg from "../images/ameer.jpg";
 import "./banner.css"
 
 function Banner() {
   return (
     <div className='about'>
     
-      <div className='about-left'>
+     {/*  <div className='about-left'>
         <img src={BanerImg} alt="img" />
-        </div>
+        </div> */}
+        <img src={BanerImg} alt="img" />
+
         <div className='about-right'>
         <div id="txt">
 
@@ -17,8 +19,9 @@ function Banner() {
        <h4>About me</h4>
        <div >
       <p id="p-about">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-       Sed vestibulum tortor eu mauris aliquet, id congue nisi convallis. Duis id efficitur justo. Donec nec leo sit amet arcu auctor fermentum. Donec id mollis dui.
+      Driven web developer with 1 year freelance experience seeks role
+at a diverse, results-oriented tech company. Passionate about technology's positive impact,
+committed to clean code & collaboration. Eager to learn & contribute meaningfully
       </p>
        </div>
 
@@ -30,7 +33,7 @@ function Banner() {
         </Link>
      
        <Link to="/projects" id="projects">
-          Resume
+          Projects
         </Link>
         
        <Link to="/contact" id="contact">

@@ -22,10 +22,19 @@ export function NavBar() {
       <div id='header'>
          
          <div id='h-left'>
-     
+          <div id="h">
+      
            <Link  to ="/home">
-                  Your Name
+                 A
+            </Link>
+          </div>
+           <div>
+           <Link id="h-n" to ="/home">
+                  Ameer Alaswad
                 </Link>
+
+           </div>
+            <div id="h-j">Web Developer</div>
 
             </div>
        
