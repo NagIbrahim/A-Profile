@@ -2,5 +2,6 @@
 .app{
   /*border:5px solid grey;*/
   background-color: transparent;
-  /*min-height: fit-content;*/
+  /*  to make the div take the entire the hight of the screen*/
+  height: 100vh;
 }
