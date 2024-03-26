@@ -177,14 +177,16 @@
   @media only screen and (max-width:599px) {
     .about {
      
-      flex-direction: column-reverse;      
+      flex-direction: column-reverse;   
+      justify-content: flex-end;   
     }  
 
 
     .about-right{
-      width:80%;
-      margin-top: 200px;
+      width:275px;
       margin-bottom: 10px;
+      margin-top: 100px;
+      margin-left: 0px;
       
     }
     .about-right h1 {
