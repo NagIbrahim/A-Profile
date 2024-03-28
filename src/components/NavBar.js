@@ -40,13 +40,13 @@ export function NavBar() {
        
           <div  id='h-right'>
           
-          <Link  to ="/resume"  class="v-line">
+          <Link  to ="/resume"  className="v-line">
                 Resume
              
               </Link>
               <div className='vertical-line'></div>
 
-              <Link  to ="/projects" class="v-line">
+              <Link  to ="/projects" className="v-line">
                 Projects
              
              </Link>
