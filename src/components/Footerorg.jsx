@@ -1,5 +1,4 @@
-import React,{ useState} from 'react'
-import { Link } from "react-router-dom"
+import React,{ useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -35,11 +34,8 @@ function Footer() {
 
   return (
     <div id="f" >
-      <div   id="f-left">  
-        <div>         
-        <p> Kontaktieren</p>    
-          </div>  
-          
+      <div id="f-left">
+        <h4>Kontaktieren</h4>
         <div id="left-info">
           <div id="left-text">
           <p >Tel:+4966666666</p>
@@ -47,38 +43,15 @@ function Footer() {
           </div>   
         <div  id="scoial">
            <span><FontAwesomeIcon icon={faFacebook} /></span>
-          <span> 
-          <Link  to ="https://github.com/NagIbrahim" >
-          <FontAwesomeIcon icon={faGithub }/ >
-              </Link>
-          
-          </span>
-          <span> 
-             <Link  to ="https://www.linkedin.com/in/naglaa-h-0342b1250/" >
-             <FontAwesomeIcon icon={faLinkedin} /> 
-             </Link>
-           </span>   
+          <span> <FontAwesomeIcon icon={faGithub} /></span>
+          <span>  <FontAwesomeIcon icon={faLinkedin} />  </span>   
           </div>
-           <div id="f-bottom">
-           <p>
-              <Link>Impressum</Link>
-              <Link>Datenschutz</Link>
-              <Link>AGB</Link>
-            </p>
-            
-            <p>
-           <span>
-           © 2035 P & V Architekten. Erstellt mit 
-            <Link>Name.com</Link>
-           </span>
-            </p>
-           </div>           
         </div>  
 
     </div>
    {/* form*/}
    <div className="form-container">
-      <p id="form-header">Contact me</p>
+      <h2 id="form-header">Contact me</h2>
       <form onSubmit={handleSubmit} id="form">
         <div id="form-content">
         <div id="form-row">
