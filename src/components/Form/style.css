@@ -1,0 +1,39 @@
+#form-container{
+    text-align: left;
+    font-size: 14px;
+}
+
+#form-title{
+    margin-bottom:25px;
+    font-size: 15px;
+}
+
+#form-inputs{
+    display:flex;
+}
+
+#inputs{
+    flex-direction: column;
+}
+#form-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btn-send{
+    cursor: pointer;
+    width:92px;
+    height:35px;
+    margin-top: 10px;  
+    font-family:"Work Sans" ;
+    font-size: 15px;
+    background-color: #c6a47e;
+
+}
+
+
+
+#btn-send:hover {
+    background-color: #9e8a74;
+  }
+  
