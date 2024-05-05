@@ -4,11 +4,18 @@
   height: 300px; 
   margin-top: 100px; 
   display: flex;
-  justify-content:space-evenly;
+  justify-content:center;
   align-items: center;
   background-color: black;
   color: white;
   text-align: center;
+}
+
+#f-container{
+  width:800px;
+  display:flex;
+  justify-content: space-between;
+  /*border:1px solid green ;*/
 }
 
 /*--------footer -left-part--------------------------------------*/
@@ -20,12 +27,13 @@
   flex-direction: column;
   font-size: 14px;
   position: relative;
+  /*border:1px solid yellow*/
 
 }
 
 #f-left a{
   color:white;
-    text-decoration:none
+  text-decoration:none
 }
 
 #f-left > div:first-child {
@@ -33,10 +41,12 @@
   font-size: 15px;
 }
 
+
 #left-info {
   line-height: 1.7em; 
   text-align: left; 
   margin-top: 35px;
+  
 }
 
 #scoial {
@@ -54,15 +64,44 @@
     bottom: 0px;
   }
 
-/* Media query*/
-  @media only screen and (max-width:599px) {
 
-    #f{
-      height: 380px;
-      flex-direction: column;
+    @media only screen and (max-width:599px) { 
+        #f {
+          height: 500px; 
+        }
+
+      #f-container {
+      flex-direction: column;     
     }
-    #f-left{
-      width:385px;
+    #f-left {
+    
+      width: 200px;
+      height: 160px;
+      }
+
+      #left-info{
+      display: flex;
+      flex-direction: column-reverse;
+      line-height: 2.7em;   
+   
+    }
+
+    #p-info{
+      display:none
     }
 
   }
+
+
+  @media only screen and (max-width:900px) and (min-width:600px){
+    #f-container{
+      width:550px
+    }
+    
+    #f-left {
+   width: 250px;
+    }
+
+}
+
+

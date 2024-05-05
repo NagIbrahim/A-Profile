@@ -2,6 +2,17 @@
     height: 100px;
     width: 197px;
     padding: 10.5px 10px 3px 12px;
-    outline:none
+    outline:none;
+    background-color: black;
+    border:1px solid white;
+    color:white 
+}
+
+
+@media only screen and (max-width:900px) and (min-width:600px){
+    #input-message{       
+        height: 80px;
+        width: 140px;
+    }
 }
 

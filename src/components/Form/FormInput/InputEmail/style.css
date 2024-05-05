@@ -1,6 +1,22 @@
 #input-email{
     height:36px;
     width:187px;
+    padding:3px 3px 3px 12px;
     margin-right:5px;
     outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.p-form{
+    padding: 1px;
+}
+
+
+@media only screen and (max-width:900px) and (min-width:600px) {
+    #input-email{
+        height:28px;
+        width:150px ;
+
+    }
+
 }

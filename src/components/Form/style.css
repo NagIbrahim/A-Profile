@@ -37,3 +37,17 @@
     background-color: #9e8a74;
   }
   
+
+
+
+  @media only screen and (max-width:599px) { 
+   #f-container{
+    justify-content: center;
+    align-items: center;
+   }
+
+  #form-inputs{
+    display:flex;
+    flex-direction: column;
+  }
+}

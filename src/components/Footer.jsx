@@ -12,11 +12,12 @@ function Footer() {
   return (
     <div id="f" >
       {/*  kontakt info */}
+      <div   id="f-container">
       <div   id="f-left">  
         <div>         
         <p> Kontaktieren</p>    
           </div>  
-          
+
         <div id="left-info">
           <div id="left-text">
           <p >Tel:+4966666666</p>
@@ -44,19 +45,29 @@ function Footer() {
               <Link>AGB</Link>
             </p>
              */}
-            <p>
+            <p id="p-info"> 
            <span>
             Made by  <span></span>
-            <Link  to="https://www.linkedin.com/in/naglaa-h-0342b1250/">Naglaa</Link>      
+            <Link  to="https://www.linkedin.com/">Naglaa</Link>      
            </span>
 
             </p>
            </div>           
         </div>  
 
-    </div>
+        
+        
+      
+    
+    </div >
  {/* form */}
-    <Form/>
+  <div id="f-right">
+
+  <Form/>
+  </div>
+    
+        
+      </div>
 
    </div>
   )

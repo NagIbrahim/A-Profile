@@ -18,7 +18,7 @@ function InputEmail({ setEmail }) {
 
   return (
     <div>
-         <p>Enter your email *</p> 
+         <p className='p-form'>Enter your email *</p> 
      
     {/*   <input  id="input-email"  type="email"  value={emailValue}   onChange={handleChange} required  placeholder='Email'/>
                      */ }
