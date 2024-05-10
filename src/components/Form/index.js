@@ -24,7 +24,7 @@ function Form() {
 
   return (
     <div id="form-container">
-      <p id="form-title">Contact:</p>
+      <p id="form-title">CONTACT:</p>
      <form id="form-inputs" >
      <div  id="inputs">
      <InputName setName={setName} name={name}  />
@@ -35,6 +35,16 @@ function Form() {
     <div id="form-btn">
     <button id="btn-send"  type="submit"  onClick={handleSubmit}>send</button>
     </div>
+    
+
+        <div  id='all-rights' >
+             <p >  
+              All Rights Reserved
+            </p>        
+            <p >       
+            Made by Naglaa
+            </p>
+           </div>           
   
     </div>
   )

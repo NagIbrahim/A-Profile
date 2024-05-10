@@ -15,7 +15,7 @@ function Footer() {
       <div   id="f-container">
       <div   id="f-left">  
         <div>         
-        <p id="kontakt"> Kontaktieren:</p>    
+        <p id="kontakt">KONTAKT:</p>    
           </div>  
 
         <div id="left-info">
@@ -39,12 +39,9 @@ function Footer() {
           </div>
      
            <div id="f-bottom">
-            {/* <p>  
-              <Link>Impressum</Link>
-              <Link>Datenschutz</Link>
-              <Link>AGB</Link>
-            </p>
-             */}
+             <p id="rights">  
+              All Rights Reserved
+            </p>        
             <p id="p-info"> 
            <span>
             Made by  <span></span>

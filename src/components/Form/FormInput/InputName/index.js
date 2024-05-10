@@ -10,7 +10,7 @@ function InputName({name,setName}) {
 
   return (
     <div>   
-      <p>Enter your name *</p>
+      <p className='p-form'>Enter your name *</p>
 
      <input 
         id="input-name" 

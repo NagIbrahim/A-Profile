@@ -1,9 +1,7 @@
-import React , {useState} from 'react'
+import React from 'react'
 import "./style.css"
 
 function FormMessage({message,setMessage }) {
-
-  
 
   const handleChange = (event) => {
     const { value } = event.target;
@@ -13,11 +11,9 @@ function FormMessage({message,setMessage }) {
   };
 
 
-
-
   return (
     <div id="form-message">
-      <p>Enter your message</p>
+      <p className='p-form'>Enter your message</p>
       {/*<input id="input-message" type="textarea"    value={messageValue}
         onChange={handleChange}  placeholder='Enter your message'/>*/}
         <textarea id="input-message" name="freeform"    value={message}  placeholder='Enter your message' onChange={handleChange}                   >

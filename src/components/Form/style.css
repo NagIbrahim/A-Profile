@@ -16,6 +16,10 @@
 #inputs{
     flex-direction: column;
 }
+
+#all-rights{
+display: none;
+}
 #form-btn{
     display: flex;
     justify-content: flex-end;
@@ -37,14 +41,22 @@
   }
   
 
-  @media only screen and (max-width:599px) { 
+  @media only screen and (max-width:600px) { 
    #f-container{
     justify-content: center;
     align-items: center;
    }
+   #rights{
+    display:none
+   }
 
+   #all-rights{
+    display: block;
+    margin-top: 50px;
+    font-size: 14px;
+   }
    #form-title{
-    margin-bottom: 15px;
+    margin-bottom: 3px;
    }
   #form-inputs{
     display:flex;
