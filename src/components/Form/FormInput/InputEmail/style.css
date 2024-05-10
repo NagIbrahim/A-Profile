@@ -6,10 +6,13 @@
     outline: none;
     background-color: transparent;
     border: 1px solid white;
+    color:white
 }
 .p-form{
     padding: 1px;
 }
+
+
 
 
 @media only screen and (max-width:900px) and (min-width:600px) {
@@ -20,3 +23,10 @@
     }
 
 }
+
+@media only screen and (max-width:599px){
+
+    #input-email{
+        width:280px
+    }
+    }

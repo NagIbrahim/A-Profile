@@ -6,6 +6,7 @@
 #form-title{
     margin-bottom:25px;
     font-size: 15px;
+    letter-spacing: 0.2em;
 }
 
 #form-inputs{
@@ -31,14 +32,10 @@
 
 }
 
-
-
 #btn-send:hover {
     background-color: #9e8a74;
   }
   
-
-
 
   @media only screen and (max-width:599px) { 
    #f-container{
@@ -46,8 +43,27 @@
     align-items: center;
    }
 
+   #form-title{
+    margin-bottom: 15px;
+   }
   #form-inputs{
     display:flex;
     flex-direction: column;
   }
+
+  #input-message{
+    width:280px
+  }
+
+  
+#btn-send{
+  width:160px;
+  height:40px;
+
+}
+
+/*.svg-inline--fa{
+    height:18px;
+    width:18px
+}*/
 }

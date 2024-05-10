@@ -15,7 +15,7 @@ function Footer() {
       <div   id="f-container">
       <div   id="f-left">  
         <div>         
-        <p> Kontaktieren</p>    
+        <p id="kontakt"> Kontaktieren:</p>    
           </div>  
 
         <div id="left-info">
@@ -64,6 +64,7 @@ function Footer() {
   <div id="f-right">
 
   <Form/>
+  
   </div>
     
         

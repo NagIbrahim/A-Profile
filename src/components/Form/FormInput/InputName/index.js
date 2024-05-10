@@ -1,14 +1,12 @@
-import React , {useState,useEffect}from 'react'
+import React , {useEffect}from 'react'
 import "./style.css"
 
-function InputName({setName}) {
-
-  const [nameValue, setNameValue] = useState('');
+function InputName({name,setName}) {
 
 
   useEffect(() => {
-    setName(nameValue);
-  }, [nameValue, setName]);
+    setName(name);
+  }, [name, setName]);
 
   return (
     <div>   
@@ -19,8 +17,8 @@ function InputName({setName}) {
         type="text" 
         required 
         placeholder='Name'
-        value={nameValue}
-        onChange={(e) => setNameValue(e.target.value)}
+        value={name}
+        onChange={(e) => setName(e.target.value)}
       />
    
     </div>

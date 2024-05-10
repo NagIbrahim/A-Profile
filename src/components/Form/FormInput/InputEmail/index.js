@@ -1,34 +1,25 @@
-import React , {useState, useEffect} from 'react'
+import React , {useEffect} from 'react'
 import "./style.css"
 
 
-function InputEmail({ setEmail }) {
+function InputEmail({email, setEmail }) {
 
-  const [emailValue, setEmailValue] = useState('');
-
- /* const handleChange = (event) => {
-    const { value } = event.target;
-    setEmailValue(value);
-    console.log("emailvalue: ", emailValue);
-    setEmail(value);
-  };*/
+ 
   useEffect(() => {
-    setEmail(emailValue);
-  }, [emailValue, setEmail]);
+    setEmail(email);
+  }, [email, setEmail]);
 
   return (
     <div>
          <p className='p-form'>Enter your email *</p> 
      
-    {/*   <input  id="input-email"  type="email"  value={emailValue}   onChange={handleChange} required  placeholder='Email'/>
-                     */ }
       <input 
         id="input-email" 
         type="email" 
         required 
         placeholder='Email'
-        value={emailValue}
-        onChange={(e) => setEmailValue(e.target.value)}
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
       />
     </div>
   )

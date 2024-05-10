@@ -1,14 +1,13 @@
 import React , {useState} from 'react'
 import "./style.css"
 
-function FormMessage({ setMessage }) {
+function FormMessage({message,setMessage }) {
 
-  const [messageValue, setMessageValue] = useState('');
+  
 
   const handleChange = (event) => {
     const { value } = event.target;
-    setMessageValue(value);
-    console.log("messagevalue:", messageValue )
+    console.log("messagevalue:", message )
     setMessage(value);
    
   };
@@ -21,7 +20,7 @@ function FormMessage({ setMessage }) {
       <p>Enter your message</p>
       {/*<input id="input-message" type="textarea"    value={messageValue}
         onChange={handleChange}  placeholder='Enter your message'/>*/}
-        <textarea id="input-message" name="freeform"    value={messageValue}  placeholder='Enter your message' onChange={handleChange}                   >
+        <textarea id="input-message" name="freeform"    value={message}  placeholder='Enter your message' onChange={handleChange}                   >
           </textarea>
     </div>
   )

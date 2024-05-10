@@ -24,13 +24,13 @@ function Form() {
 
   return (
     <div id="form-container">
-      <p id="form-title">Contact</p>
+      <p id="form-title">Contact:</p>
      <form id="form-inputs" >
      <div  id="inputs">
-     <InputName setName={setName}  />
-      <InputEmail  setEmail={setEmail} />
+     <InputName setName={setName} name={name}  />
+      <InputEmail  setEmail={setEmail} email={email}/>
      </div>   
-       <FormMessage setMessage={setMessage} />   
+       <FormMessage setMessage={setMessage} message={message} />   
     </form>  
     <div id="form-btn">
     <button id="btn-send"  type="submit"  onClick={handleSubmit}>send</button>
