@@ -22,8 +22,9 @@ function Footer() {
           <div id="left-text">
           <p >Tel:+4966666666</p>
           <p>Email:info@gmail.com</p>
-          </div>   
-        <div  id="scoial">
+          </div>  
+          <div id="p-social">
+          <div  id="scoial">
            <span><FontAwesomeIcon icon={faFacebook} /></span>
           <span> 
           <Link  to ="https://github.com/" >
@@ -37,7 +38,12 @@ function Footer() {
              </Link>
            </span>   
           </div>
-     
+         <div></div>
+            
+            
+            
+            </div> 
+       
            <div id="f-bottom">
              <p id="rights">  
               All Rights Reserved

@@ -16,11 +16,17 @@
 
 @media only screen and (max-width:900px) and (min-width:600px){
     #input-name{
-        height:28px;
+        height:26px;
         width:150px ;
     }
 
 }
+
+/*@media only screen and (max-width:770px) and (min-width:600px){
+
+
+}*/
+
 
 @media only screen  and (max-width:600px){
 
