@@ -42,7 +42,7 @@ display: none;
   }
   
 
-  @media only screen and (max-width:600px) { 
+  @media only screen and (max-width:670px) { 
    #f-container{
     justify-content: center;
     align-items: center;

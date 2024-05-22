@@ -71,15 +71,18 @@
  
   }
 
-    @media only screen and (max-width:600px) { 
+    @media only screen and (max-width:670px) { 
         #f {
-          height:635px; 
+          display:flex;
+          flex-direction: column-reverse;
+         height:635px; 
         }
 
       #f-container {
         height: 600px;
       flex-direction: column; 
-      justify-content:center;    
+      justify-content:center; 
+      align-items: center;   
     }
     #f-left {
       width: 288px;
