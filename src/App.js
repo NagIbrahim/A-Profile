@@ -7,15 +7,13 @@ import Message from "./components/Message.js";
 import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.jsx";
 
-
-import  './app.css';
+// import "./app.css";
 
 function App() {
   return (
-   
-      <Router>    
-      <div  className="app" >
-      <NavBar/>
+    <Router>
+      <div style={{ height: "100vh" }}>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
@@ -23,13 +21,8 @@ function App() {
           <Route path="/message" element={<Message />} />
         </Routes>
       </div>
-      <Footer/>
+      <Footer />
     </Router>
-      
-     
-
-    
-   
   );
 }
 
