@@ -1,0 +1,36 @@
+
+#bg-container{
+    width:100%;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid green
+}
+
+
+
+
+/*#bg-container {
+    width: 100%;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid green;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr  4fr 1fr;
+    grid-template-rows: auto ;
+    gap: 20px;
+  }*/
+
+  /*#bg-container header {
+    grid-row: 1 / 2;
+  }*/
+  
+#bg-container p{
+    text-align: left;
+}

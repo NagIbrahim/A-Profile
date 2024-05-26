@@ -7,9 +7,6 @@ function Banner() {
   return (
     <div className='about'>
     
-     {/*  <div className='about-left'>
-        <img src={BanerImg} alt="img" />
-        </div> */}
         <img src={BanerImg} alt="img" />
 
         <div className='about-right'>

@@ -1,9 +1,19 @@
 import React from 'react'
+import Card from './Card'
+import "./projects.css"
 
 function Projects() {
   return (
-    <div>
-      Hello from projects
+    <div id="bg-container">
+      <div>
+      <p>My projects</p>
+      </div>
+     <div>
+     <Card/>
+     <Card/>
+     <Card/>
+     </div>
+    
     </div>
   )
 }
