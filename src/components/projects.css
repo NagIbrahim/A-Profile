@@ -8,29 +8,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:2px solid green
+    text-align: left;
 }
+   
 
 
 
-
-/*#bg-container {
-    width: 100%;
-    background-image: url("../images/bg.jpg");
-    background-size: cover;
-    background-position: center;
-    border: 2px solid green;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr  4fr 1fr;
-    grid-template-rows: auto ;
-    gap: 20px;
-  }*/
-
-  /*#bg-container header {
-    grid-row: 1 / 2;
-  }*/
   
 #bg-container p{
     text-align: left;
+   ;
 }
+
+.card{
+  width:100px;
+  height:630px;
+
+}
+
+#projects-title  {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "open sans";
+  font-size:60px;
+  color: #fff;
+}
+
+

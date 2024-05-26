@@ -1,18 +1,17 @@
 import React from 'react'
-import CardImg from "../images/img.3.jpeg"
+/*import CardImg from "../images/imgs1.jpg"*/
 import "./card.css"
 
-function Card() {
+function Card({description,imageSrc,layout}) {
   return (
-    <div id="card">
+    <div   id="card"  className={` ${layout}`}>
         
-      <div id="card-img">
-      <img src={CardImg} alt="img" />
+      <div id="card-img" >
+      <img src={imageSrc} alt="img" />
       </div>
       <div id="card-txt">
        
-       <p>Lorem ipsum dolor sit amet consectetur adiphgggggggggggggggggggggggggggggggggggggggggggggggggggggggisicing elit.hjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjh Atque modi, sed rerum itaque ad veritatis explicabo cum animi, fugit harum libero eveniet maiores? Dolor ut cumque quo maxime dolore. Eveniet!  lkhghjghjghhhhhhhhggggf
-        ggggggggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhjhj</p>
+       <p>{description}</p>
        
       </div>
     </div>
