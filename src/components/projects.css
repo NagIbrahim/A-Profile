@@ -1,6 +1,5 @@
 
 #bg-container{
-    width:100%;
     background-image: url("../images/bg.jpg");
     background-size: cover;
     background-position: center;
@@ -12,12 +11,11 @@
 }
    
 
-
-
   
 #bg-container p{
-    text-align: left;
-   ;
+
+  text-align: left;
+  
 }
 
 .card{
@@ -36,4 +34,9 @@
   color: #fff;
 }
 
+
+#projects-container{
+  display: grid;
+  grid-template-columns:minmax(1000px,auto);
+}
 

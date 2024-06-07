@@ -1,35 +1,43 @@
 #card{
-    border:1px solid rgba(255, 255, 255, 0.274);
-    width: 1200px;
+    border:1px solid rgb(63,67,73);
     height:630px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
-   /* margin-bottom: 10px;*/
     overflow: hidden;
+  
 }
 
 #card-img{
-   border:2px solid white;
-   width:431px; 
-   width:400px;
-   height: 630px;
-   /*border:2px solid yellow*/
-}
-
-#card-txt{
-   width:670px;
+   width:630px;
    height:630px;
-   /*border:5px solid rgb(243, 230, 227);*/
+   border:1px solid rgb(63,67,73);
 }
 
-#card-txt p{
+.c-txt{
+   width:950px;
+   height:630px;
+   display:flex;
+   justify-content: center;
+    align-items: center;
+   background-color: #141416;  
+}
+
+.txt-w{
+    width:343px;
+   /* border:1px solid rgb(63,67,73);*/
+}
+ #p1 p, #p2 p{
     font-family: "open sans";
     font-size: 16px;
     color:#8A8A8A;
     line-height: 1.8em;
-    padding:60px 170px;
-    line-break: anywhere
+   line-break: anywhere
+}
+
+#p1{
+    margin-bottom: 30px;
+
 }
 
 .even {

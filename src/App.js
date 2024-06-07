@@ -15,7 +15,7 @@ function App() {
       <div style={{ height: "100vh" }}>
         <NavBar />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/message" element={<Message />} />
