@@ -43,3 +43,56 @@
 .even {
     flex-direction: row-reverse;
   }
+
+
+  .icon{
+   color: whitesmoke;
+   font-size:25px;
+   margin-right: 10px;
+  }
+
+  #b{
+   height:100px;
+   width:300px;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+
+
+  #t{
+   height: 60px;
+  }
+  
+
+  #tools{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+  }
+
+
+  @media only screen and (max-width:425px){
+   #p1 p, #p2 p{
+      font-size: 9px;
+   } 
+
+}
+
+  @media only screen  and (max-width:900px) and  (min-width:425px) {
+  #card{
+     flex-direction: column;
+     height: 700px;
+  }
+#card-img{
+   height:300px;
+}
+  .c-txt{
+   width:100%;
+  
+   }
+
+   #p1 p, #p2 p{
+      font-size: 12px;
+   } 
+  }
