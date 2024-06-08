@@ -24,12 +24,12 @@
 }
 
 #projects-title  {
-  height: 300px;
+  height: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "open sans";
-  font-size:30px;
+  font-size:25px;
   color: #fff;
 }
 
@@ -39,11 +39,9 @@
   
 }
 
+@media only screen and (max-width:425px){
+  #projects-title {
+    font-size: 20px;
+  }
 
-/*@media only screen  and (max-width:770px){
-
-#projects-title{
-  font-size: 30px;
 }
-
-}*/
