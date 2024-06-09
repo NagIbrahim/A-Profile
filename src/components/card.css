@@ -23,6 +23,7 @@
    width:950px;
    height:630px;
    display:flex;
+   flex-direction: column;
    justify-content: center;
     align-items: center;
    background-color: #141416;  
@@ -36,12 +37,13 @@
     font-size: 16px;
     color:#8A8A8A;
     line-height: 1.8em;
-   line-break: anywhere
+   line-break: anywhere;
+   margin-left: 20px;
+   margin-right: 20px;
 }
 
 #p1{
-    margin-bottom: 30px;
-
+   margin-bottom: 15px;
 }
 
 .even {
@@ -55,23 +57,13 @@
    margin-right: 10px;
   }
 
-  #b{
-   height:100px;
-   width:300px;
-   display:flex;
-   flex-direction: column;
-   justify-content: space-between;
-  }
-
-  #t{
-   height: 60px;
-  }
-  
+ 
   #tools{
-   width:850px;
+   width:90%;
+   margin-right:10%;
+   padding-top:50px;
    display: flex;
-   justify-content:center;
-   align-items: flex-end;
+   justify-content:flex-end;
   }
 
   @media only screen and (max-width:375px) {
@@ -79,9 +71,6 @@
       width:250px;
   }
 
-  #tools{
-   width:350px;
-  }
 
 }
 
@@ -98,46 +87,11 @@
    
 }
 
-@media only screen and (max-width:599px) and  (min-width:425px) {
-
-   #tools{
-      width:325px;
-     }
-
-   }
-
-@media only screen and (max-width:770px) and  (min-width:600px) {
-
-   #tools{
-      width:650px;
-     }
-
-   }
-
-
-@media only screen and (max-width:900px) and  (min-width:771px) {
-
-   #tools{
-      width:700px;
-     }
-
-   }
-
- 
- @media only screen and (max-width:1024px) and  (min-width:900px) {
-
-         #tools{
-            width:630px;
-           }
-      
-         }
    
-  
-
 
 @media only screen  and (max-width:900px) and (min-width:425px) {
    #p1 p, #p2 p{
-      font-size: 12px;
+      font-size: 11.5px;
    } 
   #p1 {
       margin-bottom: 5px;
