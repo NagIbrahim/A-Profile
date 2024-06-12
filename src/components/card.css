@@ -85,6 +85,15 @@
    justify-content:flex-end;
   }
 
+  #demo{
+   width:30%;
+   margin-left: 20px;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   align-self: flex-start;
+  }
+
   @media only screen and (max-width:375px) {
    .txt-w{
       width:250px;

@@ -6,12 +6,12 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
 import "./card.css"
 
-function Card({description1,description2,imageSrc,layout}) {
+function Card({description1,description2,title,demo, glink,imageSrc,layout}) {
   return (
     <div   id="card"  className={` ${layout}`}>
         
       <div id="card-img" >
-      <div  id="project-title"><p>Project Title</p></div>
+      <div  id="project-title"><p>title</p></div>
        {/*  <img src={imageSrc} alt="img" /> */ }
        <img src={imageSrc} alt="img" />
       
@@ -37,6 +37,10 @@ function Card({description1,description2,imageSrc,layout}) {
 
        </div>   
         
+        <div id="demo">
+        <button>demo</button>
+         <button>glink</button>
+        </div>
         </div>
       
       </div>
