@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import BanerImg from "../images/ameer.jpg";
 import "./banner.css"
 
 function Banner() {
   return (
     <div className='about'>
     
-        <img src={BanerImg} alt="img" />
+        <img src={"/images/ameer.jpg"} alt="img" />
 
         <div className='about-right'>
         <div id="txt">

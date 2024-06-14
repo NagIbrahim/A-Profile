@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
@@ -11,23 +12,40 @@ function Card({description1,description2,title,demo, glink,imageSrc,layout}) {
     <div   id="card"  className={` ${layout}`}>
         
       <div id="card-img" >
-      <div  id="project-title"><p>title</p></div>
-       {/*  <img src={imageSrc} alt="img" /> */ }
+    
+      {/*<div  id="project-title"><p>{title}</p></div> */}                                       
+
        <img src={imageSrc} alt="img" />
       
       </div>
       <div className="c-txt">
-        <div className="txt-w">
-
+       
+       {/*    <div className="txt-w">
         <div id="p1">
-        <p>{description1}</p>
+        <p>Project Title : {title}</p>
        </div>
        <div id="p2">
-          <p>{description2}</p>
+          <p>{description1}</p>
        </div>  
 
-       </div>     
+       </div> */}
+       <div id="txt-container">
+
+       <div id="p1">
+        <p>Project Title: {title}</p>
+       </div>
+       <div  id="des"><p>Project Description:</p></div>
+       <div id="p2">
+          <p>{description1}</p>
+       </div>  
+
        
+        
+      
+
+       </div>
+
+        
        <div id="tools">
        <span><FaHtml5 className='icon' /></span>
        <span>  <FaCss3Alt className='icon' /> </span>   
@@ -35,12 +53,16 @@ function Card({description1,description2,title,demo, glink,imageSrc,layout}) {
        <span><BiLogoTypescript  className='icon' /></span>
        <span> <FaReact className='icon' /></span>
 
-       </div>   
-        
-        <div id="demo">
-        <button>demo</button>
-         <button>glink</button>
+       </div>  
+
+       <div id="demo">
+       <Link  to={demo}>Demo</Link>
+       <Link  to={glink}>Github</Link>
         </div>
+ 
+
+
+
         </div>
       
       </div>
