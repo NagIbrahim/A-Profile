@@ -1,3 +1,146 @@
-#res{
-    height: 100vh;
+#res-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+
+#res-t{
+width:400px;
+display:flex;
+justify-content: space-evenly;
+margin-top: 50px;
+}
+
+#res-img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#who{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+#who p{
+    font-size:22px;
+    font-weight:600;
+    /*line-height: 1.6em;*/
+    letter-spacing: 1.2px;
+}
+
+#profile{
+    width: 70%;
+    margin-top: 70px;
+}
+#res-b{
+    border:2px solid rgb(129, 126, 126);
+    width:900px;
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.res-card{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(210, 211, 199);
+}
+
+
+
+.res-card-left{
+    width:30%;
+}
+
+li{
+    margin-left:30px;
+}
+
+
+
+.card2-right-details{
+    width:600px;
+    display:flex;
+  background-color: yellow;
+
+}
+
+#card1-right{
+    width:600px
+   
+}
+
+#x{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fill{
+    width:137%;
+}
+
+#y{
+    display: flex;
+}
+
+.card2-right{
+    width:600px;
+    display:flex;
+    flex-direction: column;
+}
+
+#x2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#y2{
+    display: flex;
+}
+
+#z2{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#card-y3{
+    display: flex;
+
+}
+
+#z3{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly; 
+}
+
+#y4{
+    width:450px;
+    display: flex;
+
+}
+
+#z4{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly; 
+}
+
+
+a{
+    text-decoration: none;
+    color:black
 }

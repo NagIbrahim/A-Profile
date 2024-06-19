@@ -17,11 +17,7 @@
     height: 100%;
     object-fit: cover;
  }
- /*#project-title{
-    position:absolute;
-    top:40%;
-    left:35%;
- }*/
+ 
  #project-title p {
     font-family: "open sans";
     color: rgb(61, 59, 59);
@@ -34,7 +30,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*align-items: flex-start;*/
     background-color: #141416;
  }
 
@@ -61,6 +56,7 @@
     width:27%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
    
  }
  
@@ -171,6 +167,9 @@
     width: 60%;
  }
 
+ #git,#web {
+   font-size:25px;
+ }
  @media only screen and (max-width:1300px) {
     #card {
        flex-direction: column;
@@ -219,22 +218,19 @@
  @media only screen and (max-width:475px) {
    #mid{
       height:5%;
-      /*height:170px;*/
+ 
     }
     
    #tech-demo{
-      flex-direction: column-reverse;
-      height: 80px;
-      width:100%
+      width:95%
    }
 
    #tools{
       width:65%;
       display:flex;
-      justify-content: space-around;   
    }
    #demo{
-      width:40%
+      width:30%
    }
 }
  

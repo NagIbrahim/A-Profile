@@ -5,6 +5,8 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
+import { FaGithub } from "react-icons/fa"
+import { FaGlobe } from "react-icons/fa";
 import "./card.css";
 function Card({
   description1,
@@ -45,8 +47,10 @@ function Card({
        
       <div id="tech-demo">
           <div id="demo">
-          <Link to={demo}>Demo</Link>
-          <Link to={glink}>Github</Link>
+          <Link to={demo}>
+          <FaGlobe id="web"/>
+          </Link>
+          <Link to={glink}><FaGithub id="git" /></Link>
         </div>
 
           <div id="tools">
