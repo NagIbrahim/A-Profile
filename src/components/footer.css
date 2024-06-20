@@ -1,6 +1,6 @@
 #f {
   height: 350px;
-  /*margin-top: 1000px;*/
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,3 +110,14 @@
 }
 
 
+.first-row, #card2-second,#card2-third,#card2-fourth{
+  margin-bottom: 25px;
+}
+
+.first-row{
+  margin-top: 25px;
+}
+
+.last{
+  margin-top: 25px;
+}

@@ -5,7 +5,10 @@
     min-height: 100vh;
     
 }
-
+p ,li {
+    font-family: "Work sans";
+    font-size: 16px;
+}
 
 #res-t{
 width:400px;
@@ -36,11 +39,11 @@ margin-top: 50px;
 }
 
 #profile{
-    width: 70%;
+    width: 870px;
     margin-top: 70px;
 }
 #res-b{
-    border:2px solid rgb(129, 126, 126);
+    border:2px solid rgb(233, 230, 230);
     width:900px;
     margin-top: 50px;
     display:flex;
@@ -61,6 +64,7 @@ margin-top: 50px;
 
 .res-card-left{
     width:30%;
+    margin-top: 25px;
 }
 
 li{
@@ -72,75 +76,91 @@ li{
 .card2-right-details{
     width:600px;
     display:flex;
-  background-color: yellow;
 
 }
 
-#card1-right{
-    width:600px
+.card1-right{
+    width:650px;
    
 }
 
-#x{
+.t{
+    font-weight: 600;
+}
+.first-row{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+ 
+   width:600px
 }
 
-.fill{
-    width:137%;
+.date{
+    min-width: 119px;
 }
 
-#y{
-    display: flex;
-}
+#second-row{
+    width:300px;
+    margin-left: 238px;
+    
+}*/
 
-.card2-right{
-    width:600px;
-    display:flex;
-    flex-direction: column;
-}
-
-#x2{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-#y2{
-    display: flex;
-}
-
-#z2{
-    width:100%;
-    display:flex;
-    justify-content: space-evenly;
-}
-
-#card-y3{
-    display: flex;
-
-}
-
-#z3{
-    width: 100%;
-    display:flex;
-    justify-content: space-evenly; 
-}
-
-#y4{
-    width:450px;
-    display: flex;
-
-}
-
-#z4{
-    width: 100%;
-    display:flex;
-    justify-content: space-evenly; 
-}
 
 
 a{
     text-decoration: none;
     color:black
+}
+
+a:hover{
+    color:blue
+}
+
+#y{
+    width:300px;
+      
+}
+
+#card2-right{
+    width:650px;
+    
+}
+
+
+#p1{
+  width:364px
+}
+
+#first-row-p2{
+    width:364px
+}
+
+#card2-second{
+    display: flex;
+    justify-content: space-between;
+ 
+    width:600px;
+  
+}
+
+
+
+#card2-third{
+    display: flex;
+    justify-content: space-between;
+    width:600px;
+}
+
+#p3{
+    width:364px
+}
+
+#card2-fourth{
+    display: flex;
+    justify-content: space-between;
+    width:600px;
+    
+}
+
+#p4{
+    width:364px
 }
