@@ -8,7 +8,7 @@ function Resume() {
     <div id="res-container">
       <div id='res-t'>
         
-        <img src={"/images/ameer.jpg"} id ="res-img"alt="img"/>
+        <img src={"/images/ameer.jpg"} id ="res-image"alt="img"/>
         <div id="who">
           <p>Ameer Alaswad</p>
           <p>Webdeveloper</p>
@@ -16,15 +16,15 @@ function Resume() {
 
       </div>
       <div id="profile"><h4>Profile</h4>
-      <p>
+      <p id="aboutme">
 Driven web developer & Syrian refugee with 1 year freelance experience seeks role at a diverse, results-oriented tech company. Passionate about tech's positive impact, committed to clean code & collaboration. Eager to learn & contribute meaningfully.
 •	Coding languages : JavaScript, Typescript, CSS, HTML.
 •	Stack : React, Next.js, Jquery, Handlebars, Grid, Flexbox, Material-UI, Redux , Jest, React-testing-library, Jest, ES6, Node.js, Express, PostgreSQL, MongoDB, Socket.io, AWS, Git, Github, Netlify, Heroku.
 .</p>
 
-  <ul>
-    <li>Coding languages : JavaScript, Typescript, CSS, HTML.</li>
-    <li>Stack : React, Next.js, Jquery, Handlebars, Grid, Flexbox, Material-UI, Redux ,
+  <ul >
+    <li className='tech'>Coding languages : JavaScript, Typescript, CSS, HTML.</li>
+    <li className='tech'>Stack : React, Next.js, Jquery, Handlebars, Grid, Flexbox, Material-UI, Redux ,
 Jest, React-testing-library, Jest, ES6, Node.js, Express, PostgreSQL, MongoDB,
 Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
   </ul>
@@ -33,16 +33,16 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
       <div id="res-b">
   
         <div className="res-card">
-          <div className="res-card-left"><p className='t'>Recent Project</p></div>
+          <div className="res-card-left"><p className='t' id="t1">Recent Project</p></div>
            <div className="card1-right">
-            <div className="first-row">
+            <div className="first-row" id="first">
             <p className="date">12/2023-1/2024</p>
-            <p className='t'>Freelance Services Project, Berlin</p>
+            <p className='t' id="pt5">Freelance Services Project, Berlin</p>
 
             </div>
         
            <div id="second-row">
-            <p>Frontend Project using React.js and Typescript</p>
+            <p id="p6">Frontend Project using React.js and Typescript</p>
            <ul>
             <li>
             	Crafted a responsive React.js and TypeScript website for Latakia GmbH, highlighting their security, logistics, and cleaning services.
@@ -59,9 +59,9 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
 
 
         </div>
-        <hr></hr>
+        <div className='h-line'></div>
         <div className="res-card">
-          <div className="res-card-left"><p className='t'>Previous Experiece</p></div>
+          <div className="res-card-left"><p className='t' id="t2">Previous Experiece</p></div>
            <div id="card2-right">
           
             <div className="first-row">
@@ -72,7 +72,7 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
             <div  id="card2-second">
             <p className="date">5/2022-9/2022</p>
             <div id="first-row-p2" >
-            <p className='t'>Digital Career Institute , Full Stack Web Development, Berlin</p>
+            <p className='t' id="pt1">Digital Career Institute , Full Stack Web Development, Berlin</p>
                <ul>
                 <li>Gained expereinece building React, JavaScript, Typescript and even Vanilla
 Javacript Apps.
@@ -81,9 +81,6 @@ Javacript Apps.
               </ul>
               
               </div>
-       
-
-             {/* */}
            
             
            </div>
@@ -92,7 +89,7 @@ Javacript Apps.
            <div  id="card2-third">
             <p className="date">4/2021-7/2021</p>
             <div id="p3">
-            <p  className='t' > SPICED Academy, Full Stack Web Development, Berlin</p>
+            <p  className='t' id="pt2" > SPICED Academy, Full Stack Web Development, Berlin</p>
                <ul>
                 <li>Full stack intensive web development bootcamp where i learned the
 Fundamentals of JavaScript, HTML, CSS and the back-end.
@@ -113,7 +110,7 @@ Fundamentals of JavaScript, HTML, CSS and the back-end.
            <div  id="card2-fourth">
             <p className="date">2020</p>
             <div id="p4">
-            <p  className='t' >Online courses, Web Development, Berlin, Germany</p>
+            <p  className='t' id="pt3" >Online courses, Web Development, Berlin, Germany</p>
                <ul>
                 <li>
                   <Link   to="https://www.udemy.com/course/the-web-developer-bootcamp/">Web Developer bootcamp </Link><span>: Learned the Fundamentals of JS, HTML, CSS and the
@@ -158,18 +155,16 @@ small project.
 
         </div>
 
-
-        {/* */}
-        <hr></hr>
+           <div  className='h-line'></div>
              <div className="res-card">
-          <div className="res-card-left"><p className='t'>Education</p></div>
+          <div className="res-card-left"><p className='t' id="t3">Education</p></div>
            <div id="card2-right">
           
     
             <div  id="card2-second" className='last'>
             <p className="date">2013-2014</p>
             <div id="first-row-p2">
-            <p  className='t'>Manager of Tourist Facilities, Hospitality Management, HPCTS, Syria</p>
+            <p  className='t'  id="pt4">Manager of Tourist Facilities, Hospitality Management, HPCTS, Syria</p>
                <ul>
                 <li>Graduate degree
                  </li>
@@ -188,7 +183,7 @@ small project.
            <div  id="card2-third">
             <p className="date">2011-2013</p>
             <div id="p3">
-            <p  className='t'>Tourism and Travel Services Management, HPCTS, Syria</p>
+            <p  className='t' id="pt4">Tourism and Travel Services Management, HPCTS, Syria</p>
                <ul>
                 <li>Diploma of education
                  </li>

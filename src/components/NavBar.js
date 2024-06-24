@@ -29,7 +29,7 @@ export function NavBar() {
                </Link>*/}
           </div>
            <div>
-           <Link id="h-n" to ="/home">
+           <Link id="h-n" to ="/">
                   Ameer Alaswad
                 </Link>
 
