@@ -6,16 +6,24 @@ import "./resume.css"
 function Resume() {
   return (
     <div id="res-container">
+      <div id="top">
+
+      <h3>Resume</h3>
       <div id='res-t'>
         
         <img src={"/images/ameer.jpg"} id ="res-image"alt="img"/>
         <div id="who">
-          <p>Ameer Alaswad</p>
-          <p>Webdeveloper</p>
+          <p id="name">Ameer Alaswad</p>
+          <p id="job">Webdeveloper</p>
         </div>
 
       </div>
-      <div id="profile"><h4>Profile</h4>
+
+
+
+      </div>
+      
+      <div id="profile"><h4 id="profile-title">Profile</h4>
       <p id="aboutme">
 Driven web developer & Syrian refugee with 1 year freelance experience seeks role at a diverse, results-oriented tech company. Passionate about tech's positive impact, committed to clean code & collaboration. Eager to learn & contribute meaningfully.
 •	Coding languages : JavaScript, Typescript, CSS, HTML.
@@ -31,9 +39,11 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
 
 </div>
       <div id="res-b">
+          
+      <div  id="line"></div>
   
         <div className="res-card">
-          <div className="res-card-left"><p className='t' id="t1">Recent Project</p></div>
+          <div className="res-card-left"><p className='t-left' id="t1">Recent Project</p></div>
            <div className="card1-right">
             <div className="first-row" id="first">
             <p className="date">12/2023-1/2024</p>
@@ -61,7 +71,7 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
         </div>
         <div className='h-line'></div>
         <div className="res-card">
-          <div className="res-card-left"><p className='t' id="t2">Previous Experiece</p></div>
+          <div className="res-card-left"><p className='t-left' id="t2">Previous Experiece</p></div>
            <div id="card2-right">
           
             <div className="first-row">
@@ -157,7 +167,7 @@ small project.
 
            <div  className='h-line'></div>
              <div className="res-card">
-          <div className="res-card-left"><p className='t' id="t3">Education</p></div>
+          <div className="res-card-left"><p className='t-left' id="t3">Education</p></div>
            <div id="card2-right">
           
     
