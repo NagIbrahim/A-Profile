@@ -42,10 +42,10 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
           
       <div  id="line"></div>
   
-        <div className="res-card">
+        <div className="res-card" id="res-card1">
           <div className="res-card-left"><p className='t-left' id="t1">Recent Project</p></div>
            <div className="card1-right">
-            <div className="first-row" id="first">
+            <div className="f-row" id="first">
             <p className="date">12/2023-1/2024</p>
             <p className='t' id="pt5">Freelance Services Project, Berlin</p>
 
@@ -70,11 +70,11 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
 
         </div>
         <div className='h-line'></div>
-        <div className="res-card">
+        <div className="res-card"  id="res-card2">
           <div className="res-card-left"><p className='t-left' id="t2">Previous Experiece</p></div>
            <div id="card2-right">
           
-            <div className="first-row">
+            <div className="f-row">
             <p className="date">1/2022-Present</p>
             <p id="p1" className='t'>1 year of Freelance experience</p>
             </div>
@@ -100,7 +100,7 @@ Javacript Apps.
             <p className="date">4/2021-7/2021</p>
             <div id="p3">
             <p  className='t' id="pt2" > SPICED Academy, Full Stack Web Development, Berlin</p>
-               <ul>
+               <ul  className='resume'>
                 <li>Full stack intensive web development bootcamp where i learned the
 Fundamentals of JavaScript, HTML, CSS and the back-end.
 
@@ -121,7 +121,7 @@ Fundamentals of JavaScript, HTML, CSS and the back-end.
             <p className="date">2020</p>
             <div id="p4">
             <p  className='t' id="pt3" >Online courses, Web Development, Berlin, Germany</p>
-               <ul>
+               <ul className='resume'>
                 <li>
                   <Link   to="https://www.udemy.com/course/the-web-developer-bootcamp/">Web Developer bootcamp </Link><span>: Learned the Fundamentals of JS, HTML, CSS and the
 backend.
@@ -166,16 +166,16 @@ small project.
         </div>
 
            <div  className='h-line'></div>
-             <div className="res-card">
+             <div className="res-card" id="res-card3">
           <div className="res-card-left"><p className='t-left' id="t3">Education</p></div>
            <div id="card2-right">
           
     
-            <div  id="card2-second" className='last'>
+            <div  id="card2-second" className='res-last'>
             <p className="date">2013-2014</p>
             <div id="first-row-p2">
             <p  className='t'  id="pt4">Manager of Tourist Facilities, Hospitality Management, HPCTS, Syria</p>
-               <ul>
+               <ul className='resume'>
                 <li>Graduate degree
                  </li>
               
@@ -194,7 +194,7 @@ small project.
             <p className="date">2011-2013</p>
             <div id="p3">
             <p  className='t' id="pt4">Tourism and Travel Services Management, HPCTS, Syria</p>
-               <ul>
+               <ul className='resume'>
                 <li>Diploma of education
                  </li>
               
