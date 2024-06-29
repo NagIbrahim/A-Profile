@@ -53,14 +53,14 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
         
            <div id="second-row">
             <p id="p6">Frontend Project using React.js and Typescript</p>
-           <ul>
-            <li>
+           <div className='resume' id="list1">
+            <p>
             	Crafted a responsive React.js and TypeScript website for Latakia GmbH, highlighting their security, logistics, and cleaning services.
-            </li>
-            <li>
+            </p>
+            <p>
             	Introduced Sentry for error tracking, expanding my expertise in frontend development and project management.
-            </li>
-           </ul>
+            </p>
+           </div>
 
             </div>
            </div>
@@ -83,12 +83,12 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
             <p className="date">5/2022-9/2022</p>
             <div id="first-row-p2" >
             <p className='t' id="pt1">Digital Career Institute , Full Stack Web Development, Berlin</p>
-               <ul>
-                <li>Gained expereinece building React, JavaScript, Typescript and even Vanilla
+               <div className='resume' id="list2">
+                <p>Gained expereinece building React, JavaScript, Typescript and even Vanilla
 Javacript Apps.
-                 </li>
-                <li> Learned debugging and testing applications as well as new libraries.  </li>
-              </ul>
+                 </p>
+                <p> Learned debugging and testing applications as well as new libraries.  </p>
+              </div>
               
               </div>
            
@@ -100,13 +100,13 @@ Javacript Apps.
             <p className="date">4/2021-7/2021</p>
             <div id="p3">
             <p  className='t' id="pt2" > SPICED Academy, Full Stack Web Development, Berlin</p>
-               <ul  className='resume'>
-                <li>Full stack intensive web development bootcamp where i learned the
+               <div className='resume'>
+                <p>Full stack intensive web development bootcamp where i learned the
 Fundamentals of JavaScript, HTML, CSS and the back-end.
 
-                 </li>
-                <li> Built lots of Front-end and Full-Stack projects.  </li>
-              </ul>
+                 </p>
+                <p> Built lots of Front-end and Full-Stack projects.  </p>
+              </div>
               
               </div>
        
@@ -121,35 +121,35 @@ Fundamentals of JavaScript, HTML, CSS and the back-end.
             <p className="date">2020</p>
             <div id="p4">
             <p  className='t' id="pt3" >Online courses, Web Development, Berlin, Germany</p>
-               <ul className='resume'>
-                <li>
+               <div className='resume'>
+                <p>
                   <Link   to="https://www.udemy.com/course/the-web-developer-bootcamp/">Web Developer bootcamp </Link><span>: Learned the Fundamentals of JS, HTML, CSS and the
-backend.
- </span>
-                 </li>
-                <li> 
+                     backend.
+                </span>
+                 </p>
+                <p> 
                   <Link to="https://www.udemy.com/course/the-advanced-web-developer-bootcamp/">The advanced Web Developer bootcamp  </Link><span>: Learned React, ES6, CSS Animations.</span>
-                </li>
+                </p>
 
                
-                <li>
+                <p>
                   <Link to="https://www.youtube.com/watch?v=T2sv8jXoP4s&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd">React Testing Tutorial </Link><span>: Helped me test my React Components and functions.  </span>
-                </li>
+                </p>
 
 
-                <li>
+                <p>
                   <Link to="https://www.udemy.com/course/understanding-typescript/?couponCode=24T6MT62024"> TypeScript - 2022 Edition </Link><span>: Learned Typescript and built a project using it.</span>
-                </li>
+                </p>
 
 
-                <li>
+                <p>
                 <Link to="https://www.youtube.com/playlist?list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH"> Next.js Tutorial for Beginners 
 </Link><span>: Learned the basics of Next.js and applied it on a
 small project.
  </span>
           
-                </li>
-              </ul>
+                </p>
+              </div>
               
               </div>
        
@@ -175,11 +175,11 @@ small project.
             <p className="date">2013-2014</p>
             <div id="first-row-p2">
             <p  className='t'  id="pt4">Manager of Tourist Facilities, Hospitality Management, HPCTS, Syria</p>
-               <ul className='resume'>
-                <li>Graduate degree
-                 </li>
+               <div className='resume'>
+                <p>Graduate degree
+                 </p>
               
-              </ul>
+              </div>
               
               </div>
        
@@ -194,11 +194,11 @@ small project.
             <p className="date">2011-2013</p>
             <div id="p3">
             <p  className='t' id="pt4">Tourism and Travel Services Management, HPCTS, Syria</p>
-               <ul className='resume'>
-                <li>Diploma of education
-                 </li>
+               <div className='resume'>
+                <p>Diploma of education
+                 </p>
               
-              </ul>
+              </div>
               
               </div>
        

@@ -28,11 +28,12 @@ p,li ,a {
 }
 
 #res-t{
-width:560px;
+/*width:560px;*/
+width:640px;
 display:flex;
 justify-content: space-evenly;
 margin-top: 70px;
-margin-left: 100px;
+margin-left: 180px;
 }
 
 #res-image{
@@ -46,22 +47,24 @@ margin-left: 100px;
     display:flex;
     flex-direction: column;
     justify-content: center;
-  
-}
+    padding-left: 20px;
+  }
 #name{
-    font-size:24px;
-    letter-spacing: 1.2px;
+    font-size:40px;
+    /*letter-spacing: 1.2px;*/
     font-weight:600;
+    padding-bottom: 10px;
 }
 
 #job{
-    font-size:18px;
+    font-size:24px;
     letter-spacing:0.5px;
     font-weight:500;
 }
 
 #profile{
-    width:80%;
+    /*width:80%;*/
+    width:950px;
     margin-top: 70px;
     margin-bottom:70px;
 }
@@ -82,13 +85,13 @@ margin-left: 100px;
 
 
 .res-card{
-    width:90%;
+    width:97%;
     display:flex;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
     margin-top:20px;
-    margin-bottom:20px;   
+    margin-bottom:20px;  
 }
 
 #card2-right,.card1-right{
@@ -102,7 +105,8 @@ margin-left: 100px;
 
 .res-card-left{
    max-width:200px;
-    margin-left:85px;
+   /* margin-left:85px;*/
+    padding-left:85px;
 }
 
 li{
@@ -155,7 +159,7 @@ li{
 }
 
 #second-row{
-    width:300px;
+    width:440px;
       margin-left: 156px;
 }
 
@@ -246,8 +250,25 @@ a:hover{
   }
 
 
-.resume{
+.resume {
     padding-bottom: 20px;
+    
+}
+
+.resume p{
+    padding-bottom: 10px;
+    
 }
 
 
+
+.resume> :first-child {
+    padding-top: 15px;
+    
+  }
+
+  .resume p{
+    color: #000000;
+    line-height: 1.6em;
+    font-size:14px
+  }
