@@ -28,7 +28,7 @@ p,li ,a {
 }
 
 #res-t{
-/*width:560px;*/
+
 width:640px;
 display:flex;
 justify-content: space-evenly;
@@ -63,10 +63,8 @@ margin-left: 180px;
 }
 
 #profile{
-    /*width:80%;*/
     width:950px;
     margin-top: 70px;
-    /*margin-bottom:70px;*/
 }
 
 #profile-title{
@@ -100,7 +98,8 @@ margin-left: 180px;
 }
 
 .res-card-left{
-   max-width:200px;
+   /*max-width:200px;*/
+    width:200px;
     padding-left:85px;
 }
 
@@ -135,6 +134,7 @@ li{
     font-size: 24px;
     font-weight:600;
     color: #000000;
+    
 }
 
 #p1,#pt1,#pt2,#pt3,#pt4,#pt5,#p6{
@@ -269,11 +269,12 @@ a:hover{
   }
 
 
+  /* media query*/
 @media only screen and (min-width:1140px) {
 
     #res-b{
        width:1100px;
-        /*border:2px solid gray*/
+       
     }
 }
 
@@ -281,7 +282,6 @@ a:hover{
 
 #profile{
     width:80%;
-    /*background-color: antiquewhite;*/
 }
 
 }
@@ -299,7 +299,6 @@ a:hover{
 
     .res-card{
         width:70%;
-        /*border:2px solid rgb(52, 119, 20)*/
     }
 }
 
@@ -331,7 +330,7 @@ a:hover{
 
     .res-card{
         width:60%;
-        /*border:2px solid rgb(26, 16, 168)*/
+        
     }
 
     #p1,#pt1,#pt2,#pt3,#pt4,#pt5,#p6{
@@ -344,23 +343,63 @@ a:hover{
     }
 }
 
-@media only screen and (max-width:779px) {
+@media only screen and (max-width:779px)   {
+
 
     #res-t,#profile{
         display: none;
     }
 
     #top{
-        height: 40px;
+        height:40px;
+        width:470px
     }
 
-
+    #line{
+        display: none;
+    }
     .res-card{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width:80%;
-        /*border:2px solid rgb(218, 240, 21)*/
+        justify-content: center;
+        /*width:80%;*/
+        width:55%;    
+    }
+
+
+    #second-row{
+        margin-left: 0px;
+    }
+    .res-card-left{
+      width:70%;
+       padding-left: 0px;
+    }
+
+    .card1-right{
+       width: 70%
+    }
+    #card2-right{
+        width:70%;
+        
+    }
+    #card2-second{
+        flex-direction: column;
+    }
+    #card2-third{
+        flex-direction: column;
+    }
+
+    #card2-fourth{
+        flex-direction: column;
+    }
+
+    .date{
+        padding-bottom: 10px;
+    }
+    .f-row{
+        flex-direction: column;
+       
     }
 
     #t1, #t2,#t3,#t4 {
@@ -371,4 +410,79 @@ a:hover{
         color: #000000;
     }  
     
+}
+
+
+@media only screen and (max-width:559px) {
+      #top{
+        height:40px;
+        width:335px
+    }
+
+ 
+    .card1-right,#card2-right {
+        width:50%
+    }
+
+    .res-card-left{
+        width:50%
+    }
+ 
+.resume {
+  width:350px;
+ 
+}
+
+.resume p {
+    font-size: 13px;
+}
+
+#p1, #pt1, #pt2, #pt3, #pt4, #pt5, #p6{
+    font-size:15.5px;
+}
+
+}
+
+
+@media only screen and (max-width:450px) {
+
+    #top{
+        height:40px;
+        width:270px
+    }
+ 
+    #top h3{
+        font-size:28px;
+    }
+    .card1-right,#card2-right {
+        width:40%
+    }
+
+        .res-card-left{
+         width:40%
+        }
+    
+    .resume {
+    width:300px;
+    
+    }
+
+    .resume  p {
+        font-size: 12px;
+        
+    }
+
+    #p1, #pt1, #pt2, #pt3, #pt4, #pt5, #p6{
+        font-size:13px;
+        
+    }
+
+    /*#first-row-p2 {
+        width: 325px;
+    }*/
+
+    #t1, #t2, #t3, #t4 {
+        font-size: 20px;
+    }
+
 }
