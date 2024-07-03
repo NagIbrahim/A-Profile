@@ -1,6 +1,8 @@
-.app{
-  /*border:5px solid grey;*/
+#app{
+  /*border:5px solid red;*/
   background-color: transparent;
   /*  to make the div take the entire the hight of the screen*/
   height: 100vh;
+  /*background-color: aqua;*/  
 }
+

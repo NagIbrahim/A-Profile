@@ -7,12 +7,12 @@ import Message from "./components/Message.js";
 import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.jsx";
 
-// import "./app.css";
+import "./app.css";
 
 function App() {
   return (
     <Router>
-      <div style={{ height: "100vh" }}>
+      <div style={{ height: "100vh" }} id="app" >
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />

@@ -11,23 +11,20 @@ body {
     font-family: Madefor, Helvetica Neue, Helvetica, Arial, sans-serif;
     /*line-height: 1.5;*/
     font-size:16px;
-    /*height:fit-content; */
     height: 100vh;
     font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight:400;
     font-style:normal;
     background-color: #f3f3f3;
     color:black;
-
+    /*background-color: rgb(250, 240, 106);*/
+   
 }
 
-/*p{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-     
-}*/
+
 
 .ul > :first-child {
   background:yellow;
 }
+
+
