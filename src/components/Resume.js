@@ -23,7 +23,7 @@ function Resume() {
 
       </div>
       
-      <div id="profile"><h4 id="profile-title">Profile</h4>
+     <div id="profile"><h4 id="profile-title">Profile</h4>
       <p id="aboutme">
 Driven web developer & Syrian refugee with 1 year freelance experience seeks role at a diverse, results-oriented tech company. Passionate about tech's positive impact, committed to clean code & collaboration. Eager to learn & contribute meaningfully.
 •	Coding languages : JavaScript, Typescript, CSS, HTML.
@@ -37,10 +37,11 @@ Jest, React-testing-library, Jest, ES6, Node.js, Express, PostgreSQL, MongoDB,
 Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
   </ul>
 
-</div>
-      <div id="res-b">
+      </div> 
+
+       <div id="res-b">
           
-      <div  id="line"></div>
+     <div  id="line"></div> 
   
         <div className="res-card" id="res-card1">
           <div className="res-card-left"><p className='t-left' id="t1">Recent Project</p></div>
@@ -70,7 +71,10 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
 
         </div>
         <div className='h-line'></div>
-        <div className="res-card"  id="res-card2">
+
+      
+
+     {/*   <div className="res-card"  id="res-card2">
           <div className="res-card-left"><p className='t-left' id="t2">Previous Experiece</p></div>
            <div id="card2-right">
           
@@ -83,12 +87,12 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
             <p className="date">5/2022-9/2022</p>
             <div id="first-row-p2" >
             <p className='t' id="pt1">Digital Career Institute , Full Stack Web Development, Berlin</p>
-               <div className='resume' id="list2">
+                <div className='resume' id="list2">
                 <p>Gained expereinece building React, JavaScript, Typescript and even Vanilla
 Javacript Apps.
                  </p>
                 <p> Learned debugging and testing applications as well as new libraries.  </p>
-              </div>
+              </div> 
               
               </div>
            
@@ -111,7 +115,7 @@ Fundamentals of JavaScript, HTML, CSS and the back-end.
               </div>
        
 
-             {/* */}
+    
            
             
            </div>
@@ -152,9 +156,7 @@ small project.
               </div>
               
               </div>
-       
-
-             {/* */}
+      
            
             
            </div>
@@ -183,8 +185,6 @@ small project.
               
               </div>
        
-
-             {/* */}
            
             
            </div>
@@ -202,8 +202,6 @@ small project.
               
               </div>
        
-
-             {/* */}
            
             
            </div>
@@ -215,13 +213,10 @@ small project.
         
 
 
-        </div>
-
-
-
-        
-  
+        </div>*/}
+    
     </div>
+
     </div>
     
   )
