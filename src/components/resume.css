@@ -81,7 +81,6 @@ margin-top: 70px;
     display:flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid rgb(22, 19, 19)
 }
 
 .res-card{
@@ -90,7 +89,7 @@ margin-top: 70px;
     justify-content: space-between;
     margin-top:20px;
     margin-bottom:20px;  
-    border:2px solid rgb(107, 107, 73)
+    /*border:2px solid rgb(107, 107, 73)*/
 
 }
 
@@ -101,9 +100,8 @@ margin-top: 70px;
 
 .h-line{
     /*width:1200px;*/
-     width:300px;
-    border:0.001px solid rgb(224, 219, 219);
-    border:0.001px solid brown
+   min-width:350px;
+    border:0.001px solid rgb(224, 219, 219);  
     
 }
 
@@ -112,6 +110,7 @@ margin-top: 70px;
     width:200px;
     /*padding-left:85px;*/
     padding-left: 8%;
+    margin-right: 17px;
 }
 
 li{
@@ -215,9 +214,8 @@ a:hover{
 }
 
 #line{
-    width:300px;
+  min-width:350px;
     border:0.001px solid rgb(224, 219, 219);
-    border:0.001px solid rgb(44, 34, 34)
 }
 
 #p3,#p4{
@@ -295,7 +293,6 @@ a:hover{
 }
 
 
-
 @media only screen  and (max-width:500px) {
 
 #res-t {
@@ -322,7 +319,24 @@ margin-bottom: 20px;
 font-size: 12px;
 }
 
+
+#p4, #p3,#p1{
+    width:auto;
+
+   
 }
+
+#first-row-p2 {
+    width:auto;
+    
+
+}
+
+
+
+}
+
+
 
 
 @media only screen and (max-width:999px) and (min-width:900px) {
@@ -359,7 +373,7 @@ font-size: 12px;
      }
 
     .res-card{
-        width:60%;
+        width:100%
         
     }
 
@@ -387,10 +401,9 @@ font-size: 12px;
     .res-card{
         display: flex;
         flex-direction: column;
-       /* align-items: center;*/
+        /*align-items: center;*/
         justify-content: center;
        
-        /*width:55%;*/ 
     }
 
 
@@ -411,13 +424,18 @@ font-size: 12px;
     }
     #card2-second{
         flex-direction: column;
+        width:auto;
+       
     }
     #card2-third{
         flex-direction: column;
+        width:auto;
+       
     }
 
     #card2-fourth{
         flex-direction: column;
+        width:auto;
     }
 
     .date{
@@ -425,6 +443,7 @@ font-size: 12px;
     }
     .f-row{
         flex-direction: column;
+        width:auto
        
     }
 
@@ -435,19 +454,22 @@ font-size: 12px;
         font-weight:600;
         color: #000000;
     }  
-    
 }
 
 
 @media only screen and (max-width:559px) {
    
-    .card1-right,#card2-right {
+
+
+  /*  .res-card-left{
         width:50%
+    }*/
+
+    
+    #second-row {
+        width: auto;
     }
 
-    .res-card-left{
-        width:50%
-    }
  
 .resume {
   width:350px;
@@ -460,6 +482,7 @@ font-size: 12px;
 
 #p1, #pt1, #pt2, #pt3, #pt4, #pt5, #p6{
     font-size:15.5px;
+    min-width: 300px;
 }
 
 }
@@ -471,13 +494,14 @@ font-size: 12px;
     #top h3{
         font-size:28px;
     }
-    .card1-right,#card2-right {
-        width:40%
+   /* .card1-right,#card2-right {
+        width:40%;
+       
     }
 
         .res-card-left{
          width:40%
-        }
+        }*/
     
     .resume {
     width:300px;
@@ -487,17 +511,23 @@ font-size: 12px;
     .resume  p {
         font-size: 12px;
         
+                }
+
+    .t{
+        width:auto
     }
 
+    .date{
+        min-width: 250px
+    }
     #p1, #pt1, #pt2, #pt3, #pt4, #pt5, #p6{
         font-size:13px;
         
     }
 
-  
-
     #t1, #t2, #t3, #t4 {
         font-size: 20px;
     }
 
+ 
 }

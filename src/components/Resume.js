@@ -6,10 +6,10 @@ import "./resume.css"
 function Resume() {
   return (
     <div id="res-container">
-      <div id="top">
+       <div id="top">
 
       <h3>Resume</h3>
-      <div id='res-t'>
+       <div id='res-t'>
         
         <img src={"/images/ameer.jpg"} id ="res-image"alt="img"/>
         <div id="who">
@@ -37,13 +37,13 @@ Jest, React-testing-library, Jest, ES6, Node.js, Express, PostgreSQL, MongoDB,
 Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
   </ul>
 
-      </div> 
+      </div>   
 
        <div id="res-b">
           
      <div  id="line"></div> 
   
-        <div className="res-card" id="res-card1">
+      <div className="res-card" id="res-card1">
           <div className="res-card-left"><p className='t-left' id="t1">Recent Project</p></div>
            <div className="card1-right">
             <div className="f-row" id="first">
@@ -72,9 +72,8 @@ Socket.io, AWS, Git, Github, Netlify, Heroku.</li>
         </div>
         <div className='h-line'></div>
 
-      
-
-     {/*   <div className="res-card"  id="res-card2">
+    
+       <div className="res-card"  id="res-card2">
           <div className="res-card-left"><p className='t-left' id="t2">Previous Experiece</p></div>
            <div id="card2-right">
           
@@ -165,10 +164,10 @@ small project.
         
 
 
-        </div>
+        </div> 
 
            <div  className='h-line'></div>
-             <div className="res-card" id="res-card3">
+              <div className="res-card" id="res-card3">
           <div className="res-card-left"><p className='t-left' id="t3">Education</p></div>
            <div id="card2-right">
           
@@ -213,7 +212,7 @@ small project.
         
 
 
-        </div>*/}
+        </div> 
     
     </div>
 
