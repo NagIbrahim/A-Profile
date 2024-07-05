@@ -29,11 +29,10 @@ p,li ,a {
 }
 
 #res-t{
-/*width:640px;*/
 display:flex;
 justify-content: space-evenly;
 margin-top: 70px;
-/*margin-left: 180px;*/
+
 }
 
 #res-image{
@@ -65,7 +64,7 @@ margin-top: 70px;
 }
 
 #profile{
-    /*width:950px;*/
+    width:950px;
     margin-top: 70px;
     padding-left:5%;
     padding-right:5%;
@@ -89,26 +88,21 @@ margin-top: 70px;
     justify-content: space-between;
     margin-top:20px;
     margin-bottom:20px;  
-    /*border:2px solid rgb(107, 107, 73)*/
-
+    
 }
 
 #card2-right,.card1-right{
-   /*max-width:600px;*/
    width:79%
 }
 
 .h-line{
-    /*width:1200px;*/
    min-width:350px;
     border:0.001px solid rgb(224, 219, 219);  
     
 }
 
-.res-card-left{
-   /*max-width:200px;*/
+.res-card-lef{
     width:200px;
-    /*padding-left:85px;*/
     padding-left: 8%;
     margin-right: 17px;
 }
@@ -337,6 +331,13 @@ font-size: 12px;
 }
 
 
+@media only screen and (max-width:950px){
+    
+    #profile{
+        width:90%
+    }
+
+}
 
 
 @media only screen and (max-width:999px) and (min-width:900px) {
@@ -388,12 +389,6 @@ font-size: 12px;
 }
 
 @media only screen and (max-width:779px)   {
-
-
-    /*#res-t,#profile{
-        display: none;
-    }*/
-
   
     #line{
         display: none;
@@ -401,7 +396,7 @@ font-size: 12px;
     .res-card{
         display: flex;
         flex-direction: column;
-        /*align-items: center;*/
+        align-items: center;
         justify-content: center;
        
     }
@@ -487,6 +482,16 @@ font-size: 12px;
 
 }
 
+@media only screen and (max-width:500px) {
+    .res-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border:2px solid green
+       
+    }   
+}
+
 
 @media only screen and (max-width:450px) {
 
@@ -494,14 +499,7 @@ font-size: 12px;
     #top h3{
         font-size:28px;
     }
-   /* .card1-right,#card2-right {
-        width:40%;
-       
-    }
 
-        .res-card-left{
-         width:40%
-        }*/
     
     .resume {
     width:300px;
