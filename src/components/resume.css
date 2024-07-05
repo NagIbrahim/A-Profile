@@ -13,6 +13,7 @@
     display: flex;
     flex-direction:column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 #top h3{
@@ -64,7 +65,7 @@ margin-top: 70px;
 }
 
 #profile{
-    width:950px;
+    width:1200px;
     margin-top: 70px;
     padding-left:5%;
     padding-right:5%;
@@ -96,7 +97,8 @@ margin-top: 70px;
 }
 
 .h-line{
-   min-width:350px;
+   width:1250px;
+   margin-bottom: 10px;
     border:0.001px solid rgb(224, 219, 219);  
     
 }
@@ -208,7 +210,8 @@ a:hover{
 }
 
 #line{
-  min-width:350px;
+    width:1250px;
+    margin-bottom:10px;
     border:0.001px solid rgb(224, 219, 219);
 }
 
@@ -273,6 +276,18 @@ a:hover{
   }
 
 
+
+  @media only screen  and (max-width:1300px){
+
+    #profile, #res-b,#line, .h-line{
+        width:90%;
+    }
+
+    .res-card-left{
+        margin-right:20px;
+    }
+  }
+
   
 @media only screen  and (max-width:700px) { 
 
@@ -327,15 +342,6 @@ font-size: 12px;
 }
 
 
-
-}
-
-
-@media only screen and (max-width:950px){
-    
-    #profile{
-        width:90%
-    }
 
 }
 
@@ -455,12 +461,6 @@ font-size: 12px;
 @media only screen and (max-width:559px) {
    
 
-
-  /*  .res-card-left{
-        width:50%
-    }*/
-
-    
     #second-row {
         width: auto;
     }
@@ -486,8 +486,7 @@ font-size: 12px;
     .res-card{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        border:2px solid green
+        justify-content: center
        
     }   
 }
