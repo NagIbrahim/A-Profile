@@ -76,7 +76,7 @@ margin-top: 70px;
  margin-bottom: 30px;
 }
 #res-b{
-    width:90%;
+    width:1200px;
     margin-top: 50px;
     display:flex;
     flex-direction: column;
@@ -98,6 +98,7 @@ margin-top: 70px;
 
 .h-line{
    width:1250px;
+   margin-top: 10px;
    margin-bottom: 10px;
     border:0.001px solid rgb(224, 219, 219);  
     
@@ -211,6 +212,7 @@ a:hover{
 
 #line{
     width:1250px;
+    margin-top: 10px;
     margin-bottom:10px;
     border:0.001px solid rgb(224, 219, 219);
 }
