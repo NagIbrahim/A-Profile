@@ -16,6 +16,13 @@ export function NavBar() {
         const closeMenu = () => {
           setShowMenu(false);
       };
+
+      const scrollToFooter = () => {
+        const footer = document.getElementById('f');
+        if (footer) {
+          footer.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
   
     
   return (
@@ -24,9 +31,9 @@ export function NavBar() {
          <div id='h-left'>
           <div id="h">
       
-          {/* <Link  to ="/home">
+          { <Link  to ="/">
                  A
-               </Link>*/}
+               </Link>}
           </div>
            <div>
            <Link id="h-n" to ="/">
@@ -39,6 +46,11 @@ export function NavBar() {
             </div>
        
           <div  id='h-right'>
+          <Link  to ="/"  className="v-line">
+                Home
+             
+              </Link>
+              <div className='vertical-line'></div>
           
           <Link  to ="/resume"  className="v-line">
                 Resume
@@ -52,10 +64,11 @@ export function NavBar() {
              </Link>
              <div className='vertical-line'></div>
 
-             <Link  to ="/message">
+             {/* <Link  to ="/contact">
               Contact me
              
-             </Link>
+             </Link> */}
+              <Link to="#f" onClick={scrollToFooter}>Contact me</Link>
           </div>
           <FontAwesomeIcon id="hamburger-menu" icon={showMenu ? faTimes : faBars} onClick={toggleMenu} />
 

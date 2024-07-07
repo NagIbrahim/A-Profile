@@ -10,6 +10,7 @@ import Footer from "./components/Footer.jsx";
 import "./app.css";
 
 function App() {
+
   return (
     <Router>
       <div style={{ height: "100vh" }} id="app" >
