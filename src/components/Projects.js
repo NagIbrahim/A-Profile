@@ -1,6 +1,21 @@
 import React from 'react'
 import Card from './Card'
 /*import cardImg from "../images/imgs1.jpg"*/
+
+/*import { FaGithub } from "react-icons/fa"
+import { FaGlobe } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
+import { AiFillApi } from "react-icons/ai"; // For Next.js
+import { SiJest } from "react-icons/si"; // For Jest
+import { MdEmail } from "react-icons/md"; // For Mail.*/
+/*import { SiMaterialUi } from "@mui/icons-material"; // Importing Material UI icon*/
+
+import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGithub, FaGlobe } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
+import { AiFillApi } from "react-icons/ai";
+import { SiJest  } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 import "./projects.css"
 
 const Data = [
@@ -14,7 +29,21 @@ const Data = [
         imageSrc: "/images/project11.png",
         demo:`https://videos-gallery.netlify.app/`,
         gitlink:`https://github.com/Ameer-Alaswad/videos-gallery`
+,
 
+icons: [
+  
+  { component: <FaHtml5 />, name: "HTML5" },
+  { component: <FaCss3Alt />, name: "CSS3" },
+ /* { component: <SiMaterialUi />, name: "Material UI" },*/
+  { component: <BiLogoTypescript />, name: "TypeScript" },
+  { component: <FaReact />, name: "React" },
+  { component: <FaJs />, name: "JavaScript" },
+
+  { component: <AiFillApi />, name: "Next.js" },
+  { component: <SiJest />, name: "Jest" },
+  { component: <MdEmail />, name: "Mail.js" },
+],
   },
   {
     id: 2,
@@ -23,7 +52,18 @@ const Data = [
     description2:` Hier kannst du einen längeren Text über dein Unternehmen verfassen. Beschreibe dein Unternehmen etwas ausführlicher. Sprich über die Dienstleistungen, die du anbietest. Erzähle Besuchern die Geschichte deines Unternehmens, wie es entstanden ist und was dich von der Konkurrenz unterscheidet. Hebe hervor, was dein Unternehmen besonders macht und wer du`, 
     imageSrc: "/images/project22.png",
     demo:"https://latakia-gmbh.netlify.app/ ",
-    gitlink:"https://github.com/Ameer-Alaswad/latakia-gmbh-services-freelance"
+    gitlink:"https://github.com/Ameer-Alaswad/latakia-gmbh-services-freelance",
+    icons: [
+      { component: <FaHtml5 />, name: "HTML5" },
+      { component: <FaCss3Alt />, name: "CSS3" },
+    
+      { component: <BiLogoTypescript />, name: "TypeScript" },
+      { component: <FaReact />, name: "React" },
+      { component: <FaJs />, name: "JavaScript" },
+      { component: <AiFillApi />, name: "Next.js" },
+      { component: <SiJest />, name: "Jest" },
+      { component: <MdEmail />, name: "Mail.js" },
+    ],
   },
   {
     id: 3,
@@ -32,7 +72,19 @@ const Data = [
    
     imageSrc: "/images/project3.png",
     demo:"https://ameer-alaswad.netlify.app/ProjectsList/E-commerce%20(on%20going%20project) "   ,
-    gitlink:"https://github.com/Ameer-Alaswad/E-commerce "
+    gitlink:"https://github.com/Ameer-Alaswad/E-commerce ",
+    icons: [
+  
+      { component: <FaHtml5 />, name: "HTML5" },
+      { component: <FaCss3Alt />, name: "CSS3" },
+            
+      { component: <FaReact />, name: "React" },
+      { component: <BiLogoTypescript />, name: "TypeScript" },
+      { component: <FaJs />, name: "JavaScript" },
+      { component: <AiFillApi />, name: "Next.js" },
+      { component: <SiJest />, name: "Jest" },
+      { component: <MdEmail />, name: "Mail.js" },
+    ],
   },
 
   {
@@ -42,7 +94,19 @@ const Data = [
    
     imageSrc: "/images/project4.png",
     demo:"https://3d-gk.netlify.app/"   ,
-    gitlink:"https://github.com/Ameer-Alaswad/Interior-Design-Portfolio"
+    gitlink:"https://github.com/Ameer-Alaswad/Interior-Design-Portfolio",
+    icons: [
+      
+      { component: <FaHtml5 />, name: "HTML5" },
+      { component: <FaCss3Alt />, name: "CSS3" },
+   
+      { component: <FaReact />, name: "React" },
+      { component: <BiLogoTypescript />, name: "TypeScript" },
+      { component: <FaJs />, name: "JavaScript" },
+      { component: <AiFillApi />, name: "Next.js" },
+      { component: <SiJest />, name: "Jest" },
+      { component: <MdEmail />, name: "Mail.js" },
+    ],
   },
 
   {
@@ -52,7 +116,19 @@ const Data = [
    
     imageSrc: "/images/project55.png",
     demo:"https://weather-forcast-ameer.netlify.app/ "   ,
-    gitlink:"https://github.com/Ameer-Alaswad/Weather-app "
+    gitlink:"https://github.com/Ameer-Alaswad/Weather-app ",
+    icons: [
+      { component: <FaReact />, name: "React" },
+      { component: <FaHtml5 />, name: "HTML5" },
+      { component: <FaCss3Alt />, name: "CSS3" },
+     
+      { component: <FaReact />, name: "React" },
+      { component: <BiLogoTypescript />, name: "TypeScript" },
+      { component: <FaJs />, name: "JavaScript" },
+      { component: <AiFillApi />, name: "Next.js" },
+      { component: <SiJest />, name: "Jest" },
+      { component: <MdEmail />, name: "Mail.js" },
+    ],
   },
   {
     id: 6,
@@ -60,7 +136,18 @@ const Data = [
     description1:`A list of things that one wants to get done or that need to get done`,
     imageSrc: "/images/project6.png",
     demo:"https://my-todolist-typescript.netlify.app/ "   ,
-    gitlink:"https://github.com/Ameer-Alaswad/Todolist-Typescript "
+    gitlink:"https://github.com/Ameer-Alaswad/Todolist-Typescript ",
+    icons: [
+      { component: <FaHtml5 />, name: "HTML5" },
+      { component: <FaCss3Alt />, name: "CSS3" },
+  
+      { component: <FaReact />, name: "React" },
+      { component: <BiLogoTypescript />, name: "TypeScript" },
+      { component: <FaJs />, name: "JavaScript" },
+      { component: <AiFillApi />, name: "Next.js" },
+      { component: <SiJest />, name: "Jest" },
+      { component: <MdEmail />, name: "Mail.js" },
+    ],
   },
   {
     id: 7,
@@ -70,7 +157,19 @@ const Data = [
     imageSrc: "/images/project7.png",
     demo:"https://pokemon-dexx.netlify.app "   ,
 
-    gitlink:"https://github.com/Ameer-Alaswad/Pokedex "
+    gitlink:"https://github.com/Ameer-Alaswad/Pokedex ",
+    icons: [
+      { component: <FaReact />, name: "React" },
+      { component: <FaHtml5 />, name: "HTML5" },
+      { component: <FaCss3Alt />, name: "CSS3" },
+    
+      { component: <FaReact />, name: "React" },
+      { component: <BiLogoTypescript />, name: "TypeScript" },
+      { component: <FaJs />, name: "JavaScript" },
+      { component: <AiFillApi />, name: "Next.js" },
+      { component: <SiJest />, name: "Jest" },
+      { component: <MdEmail />, name: "Mail.js" },
+    ],
   },
 {
   id: 8,
@@ -78,7 +177,18 @@ const Data = [
   description1:`list the things that you want to get done or that need to get done..`,
   imageSrc: "/images/project8.png",
   demo:"https://todolist-ameer-vjs.netlify.app/"   ,
-  gitlink:"https://github.com/Ameer-Alaswad/Todolist-VJS"
+  gitlink:"https://github.com/Ameer-Alaswad/Todolist-VJS",
+  icons: [
+    { component: <FaHtml5 />, name: "HTML5" },
+    { component: <FaCss3Alt />, name: "CSS3" },
+
+    { component: <FaReact />, name: "React" },
+    { component: <BiLogoTypescript />, name: "TypeScript" },
+    { component: <FaJs />, name: "JavaScript" },
+    { component: <AiFillApi />, name: "Next.js" },
+    { component: <SiJest />, name: "Jest" },
+    { component: <MdEmail />, name: "Mail.js" },
+  ],
 
 }
 
@@ -96,7 +206,7 @@ function Projects() {
      
      {Data.map((element, index) => {
           const layout = index % 2 === 1 ? 'even' : 'odd';
-          return <Card ClassName="card" key={index} layout={layout} title={element.title} description1={element.description1}  demo={element.demo} glink={element.gitlink} imageSrc={element.imageSrc} />;
+          return <Card ClassName="card" key={index} layout={layout} title={element.title} description1={element.description1}  demo={element.demo} glink={element.gitlink} imageSrc={element.imageSrc} icons={element.icons} />;
         })}
      
      

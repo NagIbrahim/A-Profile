@@ -1,12 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaReact } from "react-icons/fa";
+/*import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
-import { BiLogoTypescript } from "react-icons/bi";
+import { BiLogoTypescript } from "react-icons/bi";*/
 import { FaGithub } from "react-icons/fa"
 import { FaGlobe } from "react-icons/fa";
+/*import { FaReact, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
+import { AiFillApi } from "react-icons/ai"; // For Next.js
+import { SiJest } from "react-icons/si"; // For Jest
+import { MdEmail } from "react-icons/md"; // For Mail.*/
 import "./card.css";
 function Card({
   description1,
@@ -15,7 +19,7 @@ function Card({
   demo,
   glink,
   imageSrc,
-  layout,
+  layout,icons
 }) {
   return (
     <div id="card" className={` ${layout}`}>
@@ -53,7 +57,7 @@ function Card({
           <Link to={glink}><FaGithub id="git" /></Link>
         </div>
 
-          <div id="tools">
+          {/* <div id="tools">
           <span>
             <FaHtml5 className="icon" />
           </span>
@@ -72,7 +76,15 @@ function Card({
             <FaReact className="icon" />
           </span>
         
-        </div> 
+        </div>  */}
+
+         <div id="tools">
+            {icons.map((icon, index) => (
+              <span key={index} title={icon.name} className="icon">
+                {icon.component} {/* Render the icon component */}
+              </span>
+            ))}
+          </div>
           </div>
 
       </div>
