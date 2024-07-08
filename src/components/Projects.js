@@ -35,8 +35,8 @@ icons: [
   
   { component: <FaHtml5 />, name: "HTML5" },
   { component: <FaCss3Alt />, name: "CSS3" },
- /* { component: <SiMaterialUi />, name: "Material UI" },*/
-  { component: <BiLogoTypescript />, name: "TypeScript" },
+
+{ component: <BiLogoTypescript />, name: "TypeScript" },
   { component: <FaReact />, name: "React" },
   { component: <FaJs />, name: "JavaScript" },
 
@@ -196,6 +196,7 @@ icons: [
   
 ];
 
+ /*{ component: <SiMaterialUi />, name: "Material UI" }*/
 function Projects() {
   return (
     <div id="bg-container">
