@@ -1,21 +1,15 @@
 import React from 'react'
-import Card from './Card'
-/*import cardImg from "../images/imgs1.jpg"*/
 
-/*import { FaGithub } from "react-icons/fa"
-import { FaGlobe } from "react-icons/fa";
+import Card from './Card'
+import { TbBrandSentry } from "react-icons/tb";
+import { FaNode } from "react-icons/fa";
+import { SiMui } from "react-icons/si";
 import { FaReact, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
-import { AiFillApi } from "react-icons/ai"; // For Next.js
-import { SiJest } from "react-icons/si"; // For Jest
-import { MdEmail } from "react-icons/md"; // For Mail.*/
-/*import { SiMaterialUi } from "@mui/icons-material"; // Importing Material UI icon*/
-
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGithub, FaGlobe } from "react-icons/fa";
-import { BiLogoTypescript } from "react-icons/bi";
-import { AiFillApi } from "react-icons/ai";
+/*import { AiFillApi } from "react-icons/ai";*/
 import { SiJest  } from "react-icons/si";
-import { MdEmail } from "react-icons/md";
+/*import { MdEmail } from "react-icons/md";*/
+import { FaArrowUp } from "react-icons/fa";
 import "./projects.css"
 
 const Data = [
@@ -33,16 +27,14 @@ const Data = [
 
 icons: [
   
-  { component: <FaHtml5 />, name: "HTML5" },
-  { component: <FaCss3Alt />, name: "CSS3" },
 
+  { component:  <SiMui /> , name: "material ui" },
 { component: <BiLogoTypescript />, name: "TypeScript" },
   { component: <FaReact />, name: "React" },
-  { component: <FaJs />, name: "JavaScript" },
-
-  { component: <AiFillApi />, name: "Next.js" },
   { component: <SiJest />, name: "Jest" },
-  { component: <MdEmail />, name: "Mail.js" },
+
+ 
+  
 ],
   },
   {
@@ -54,15 +46,14 @@ icons: [
     demo:"https://latakia-gmbh.netlify.app/ ",
     gitlink:"https://github.com/Ameer-Alaswad/latakia-gmbh-services-freelance",
     icons: [
-      { component: <FaHtml5 />, name: "HTML5" },
+   
       { component: <FaCss3Alt />, name: "CSS3" },
     
       { component: <BiLogoTypescript />, name: "TypeScript" },
       { component: <FaReact />, name: "React" },
-      { component: <FaJs />, name: "JavaScript" },
-      { component: <AiFillApi />, name: "Next.js" },
       { component: <SiJest />, name: "Jest" },
-      { component: <MdEmail />, name: "Mail.js" },
+      { component:  <TbBrandSentry />, name: "Sentry" },
+     
     ],
   },
   {
@@ -76,14 +67,14 @@ icons: [
     icons: [
   
       { component: <FaHtml5 />, name: "HTML5" },
-      { component: <FaCss3Alt />, name: "CSS3" },
-            
+     /* { component: <FaCss3Alt />, name: "CSS3" }, */          
       { component: <FaReact />, name: "React" },
       { component: <BiLogoTypescript />, name: "TypeScript" },
-      { component: <FaJs />, name: "JavaScript" },
-      { component: <AiFillApi />, name: "Next.js" },
+    
       { component: <SiJest />, name: "Jest" },
-      { component: <MdEmail />, name: "Mail.js" },
+
+      { component:  <FaNode />, name: "node.js" },
+     
     ],
   },
 
@@ -98,14 +89,9 @@ icons: [
     icons: [
       
       { component: <FaHtml5 />, name: "HTML5" },
-      { component: <FaCss3Alt />, name: "CSS3" },
-   
-      { component: <FaReact />, name: "React" },
-      { component: <BiLogoTypescript />, name: "TypeScript" },
-      { component: <FaJs />, name: "JavaScript" },
-      { component: <AiFillApi />, name: "Next.js" },
-      { component: <SiJest />, name: "Jest" },
-      { component: <MdEmail />, name: "Mail.js" },
+      { component: <FaReact />, name: "React" },  
+      { component:  <SiMui /> , name: "material ui" },
+
     ],
   },
 
@@ -118,16 +104,13 @@ icons: [
     demo:"https://weather-forcast-ameer.netlify.app/ "   ,
     gitlink:"https://github.com/Ameer-Alaswad/Weather-app ",
     icons: [
-      { component: <FaReact />, name: "React" },
-      { component: <FaHtml5 />, name: "HTML5" },
-      { component: <FaCss3Alt />, name: "CSS3" },
+    
+      { component: <FaHtml5 />, name: "HTML5" },    
      
       { component: <FaReact />, name: "React" },
-      { component: <BiLogoTypescript />, name: "TypeScript" },
-      { component: <FaJs />, name: "JavaScript" },
-      { component: <AiFillApi />, name: "Next.js" },
+      { component:  <SiMui /> , name: "material ui" },
       { component: <SiJest />, name: "Jest" },
-      { component: <MdEmail />, name: "Mail.js" },
+      
     ],
   },
   {
@@ -138,15 +121,11 @@ icons: [
     demo:"https://my-todolist-typescript.netlify.app/ "   ,
     gitlink:"https://github.com/Ameer-Alaswad/Todolist-Typescript ",
     icons: [
-      { component: <FaHtml5 />, name: "HTML5" },
-      { component: <FaCss3Alt />, name: "CSS3" },
-  
+   
       { component: <FaReact />, name: "React" },
+      { component:  <SiMui /> , name: "material ui" },
       { component: <BiLogoTypescript />, name: "TypeScript" },
-      { component: <FaJs />, name: "JavaScript" },
-      { component: <AiFillApi />, name: "Next.js" },
-      { component: <SiJest />, name: "Jest" },
-      { component: <MdEmail />, name: "Mail.js" },
+   
     ],
   },
   {
@@ -159,16 +138,14 @@ icons: [
 
     gitlink:"https://github.com/Ameer-Alaswad/Pokedex ",
     icons: [
-      { component: <FaReact />, name: "React" },
-      { component: <FaHtml5 />, name: "HTML5" },
-      { component: <FaCss3Alt />, name: "CSS3" },
     
+      { component: <FaHtml5 />, name: "HTML5" },
+     
       { component: <FaReact />, name: "React" },
-      { component: <BiLogoTypescript />, name: "TypeScript" },
-      { component: <FaJs />, name: "JavaScript" },
-      { component: <AiFillApi />, name: "Next.js" },
+      { component:  <SiMui /> , name: "material ui" },
+    
       { component: <SiJest />, name: "Jest" },
-      { component: <MdEmail />, name: "Mail.js" },
+     
     ],
   },
 {
@@ -181,13 +158,11 @@ icons: [
   icons: [
     { component: <FaHtml5 />, name: "HTML5" },
     { component: <FaCss3Alt />, name: "CSS3" },
-
-    { component: <FaReact />, name: "React" },
-    { component: <BiLogoTypescript />, name: "TypeScript" },
-    { component: <FaJs />, name: "JavaScript" },
-    { component: <AiFillApi />, name: "Next.js" },
+    /*{ component: <FaJs />, name: "JavaScript" },*/
+    { component:  <SiMui /> , name: "material ui" },
+   /* { component: <AiFillApi />, name: "Next.js" },
     { component: <SiJest />, name: "Jest" },
-    { component: <MdEmail />, name: "Mail.js" },
+    { component: <MdEmail />, name: "Mail.js" },*/
   ],
 
 }
@@ -215,6 +190,11 @@ function Projects() {
      
      </div>
     
+     <div id="arrow-link">
+          <a href="#header">
+            <FaArrowUp size={30} />
+          </a>
+        </div>
     </div>
   )
 }

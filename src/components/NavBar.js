@@ -29,12 +29,11 @@ export function NavBar() {
       <div id='header'>
          
          <div id='h-left'>
-          <div id="h">
       
-          { <Link  to ="/">
-                 A
-               </Link>}
-          </div>
+           <Link  to ="/">
+                 <div id="h"></div>
+               </Link>
+          
            <div>
            <Link id="h-n" to ="/">
                   Ameer Alaswad
@@ -76,7 +75,8 @@ export function NavBar() {
                 <div id="mobile-menu-container">
                     <FontAwesomeIcon id="close-menu" icon={faTimes} onClick={toggleMenu} />
                     <div id="mobile-menu">
-                        <Link to="/resume"  onClick={closeMenu}>CV</Link>
+                        <Link to="/"  onClick={closeMenu}>Home</Link>
+                        <Link to="/resume"  onClick={closeMenu}>Resume</Link>
                         <Link to="/projects"  onClick={closeMenu}>Projects</Link>
                         <Link to="/message" onClick={closeMenu}>Contact me</Link>
                     </div>

@@ -1,8 +1,5 @@
 
 #bg-container{
-    /*background-image: url("../images/bg.jpg");
-    background-size: cover;
-    background-position: center;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +28,7 @@
   justify-content: center;
   align-items: center;
   font-family: "open sans";
-  font-size:25px;
+  font-size:50px;
   color: black;
 }
 
