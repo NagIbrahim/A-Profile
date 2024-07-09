@@ -191,8 +191,8 @@ function Projects() {
      </div>
     
      <div id="arrow-link">
-          <a href="#header">
-            <FaArrowUp size={30} />
+          <a href="#header" className="arrow-link">
+            <FaArrowUp size={30}  className="arrow-icon" />
           </a>
           <p>Go up</p>
         </div>

@@ -48,20 +48,12 @@
   padding-bottom: 50px;
 }
 
-#arrow-link svg{
-  background-color: yellow;
-  height: 100px;
-  width: 15px;
-}
 
-
-#arrow-link path{
-  color: brown;
-}
 
 
 #projects-container{
   display: grid;
+  margin-bottom:70px;
   
 }
 
@@ -70,4 +62,33 @@
     font-size: 20px;
   }
 
+}
+
+
+#arrow-link {
+  text-align: center;
+}
+
+#arrow-link a {
+  text-decoration: none;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-icon {
+  width: 15px;
+  height: 100px;
+  color: black;
+}
+
+#arrow-link p {
+  margin: 0;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+#go-up a:hover {
+  color: blue;
 }
