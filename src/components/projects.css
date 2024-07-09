@@ -71,17 +71,12 @@
 
 #arrow-link a {
   text-decoration: none;
-  color:black;
   display: flex;
   flex-direction: column;
   align-items: center;
+ /*color : rgba(0, 0, 0, 0.54);*/
 }
 
-.arrow-icon {
-  width: 15px;
-  height: 100px;
-  color: black;
-}
 
 #arrow-link p {
   margin: 0;
@@ -89,6 +84,8 @@
   font-family: "Open Sans", sans-serif;
 }
 
-#go-up a:hover {
-  color: blue;
+#arrow-link svg{
+  height: 100px;
+  /*background-color: rgb(204, 196, 196);*/
 }
+
