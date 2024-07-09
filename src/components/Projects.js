@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Card from './Card'
+import { SiTestinglibrary } from "react-icons/si";
 import { TbBrandSentry } from "react-icons/tb";
 import { FaNode } from "react-icons/fa";
 import { SiMui } from "react-icons/si";
@@ -32,9 +33,8 @@ icons: [
 { component: <BiLogoTypescript />, name: "TypeScript" },
   { component: <FaReact />, name: "React" },
   { component: <SiJest />, name: "Jest" },
-
+  { component: <SiTestinglibrary />, name: "Jest" },
  
-  
 ],
   },
   {
@@ -194,6 +194,7 @@ function Projects() {
           <a href="#header">
             <FaArrowUp size={30} />
           </a>
+          <p>Go up</p>
         </div>
     </div>
   )

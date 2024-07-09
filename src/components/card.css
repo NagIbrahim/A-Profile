@@ -49,12 +49,12 @@
 
 
  #tools {
-    width:210px;
-    justify-content: space-around;
+    width:220px;
+    justify-content: flex-end; 
  }
  #demo {
     /*width:27%;*/
-    width:16%;
+    width:90px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -140,7 +140,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
     margin-left: 33px;
     height: 55%;
    
@@ -227,11 +226,14 @@
    }
 
    #tools{
-      width:65%;
+      /*width:60%;*/
+      width:140px;
       display:flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
    }
    #demo{
-      width:30%
+      align-items:flex-start;
    }
 }
  

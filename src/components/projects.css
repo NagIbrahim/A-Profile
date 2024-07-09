@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-color: rgb(243,243,243);
+   /* background-color: rgb(243,243,243);*/
 }
   
 #bg-container p{
@@ -13,7 +13,7 @@
 }
 #projects-container{
   margin:30px;
-  border:2px solid blue;
+
 }
 
 .card{
@@ -30,6 +30,33 @@
   font-family: "open sans";
   font-size:50px;
   color: black;
+}
+
+
+#arrow-link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#arrow-link p{
+  font-family: "open sans";
+  font-size: 25px;
+  font-weight: 600px;
+  padding-bottom: 50px;
+}
+
+#arrow-link svg{
+  background-color: yellow;
+  height: 100px;
+  width: 15px;
+}
+
+
+#arrow-link path{
+  color: brown;
 }
 
 
