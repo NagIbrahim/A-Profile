@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: left;
-   /* background-color: rgb(243,243,243);*/
+   
 }
   
 #bg-container p{
@@ -49,7 +49,11 @@
 }
 
 
-
+#arrow-link svg {
+  width:50px; /* Make the arrow smaller */
+  height:50px; /* Ensure aspect ratio is maintained */
+  fill: grey; /* Change arrow color to grey */
+}
 
 #projects-container{
   display: grid;
@@ -74,7 +78,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
- /*color : rgba(0, 0, 0, 0.54);*/
 }
 
 
@@ -84,8 +87,8 @@
   font-family: "Open Sans", sans-serif;
 }
 
-#arrow-link svg{
-  height: 100px;
-  /*background-color: rgb(204, 196, 196);*/
-}
+/*#arrow-link svg{
+  height: 70px;
+ 
+}*/
 

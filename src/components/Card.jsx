@@ -1,16 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-/*import { FaReact } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa6";
-import { IoLogoJavascript } from "react-icons/io5";
-import { BiLogoTypescript } from "react-icons/bi";*/
 import { FaGithub } from "react-icons/fa"
 import { FaGlobe } from "react-icons/fa";
-/*import { FaReact, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
-import { AiFillApi } from "react-icons/ai"; // For Next.js
-import { SiJest } from "react-icons/si"; // For Jest
-import { MdEmail } from "react-icons/md"; // For Mail.*/
+
 import "./card.css";
 function Card({
   description1,
@@ -24,7 +16,7 @@ function Card({
   return (
     <div id="card" className={` ${layout}`}>
       <div id="card-img">
-        {/*<div  id="project-title"><p>{title}</p></div> */}
+        
         <img src={imageSrc} alt="img" />
       </div>
         
