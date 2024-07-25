@@ -2,6 +2,7 @@ import React , { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom"
+/*import Footer from "./Footer.jsx";*/
 
 import "./navbar.css"
 
@@ -24,7 +25,7 @@ export function NavBar() {
         }
       };
   
-    
+
   return (
       <div id='header'>
          
@@ -72,15 +73,21 @@ export function NavBar() {
           <FontAwesomeIcon id="hamburger-menu" icon={showMenu ? faTimes : faBars} onClick={toggleMenu} />
 
           {showMenu && (
-                <div id="mobile-menu-container">
+                    <div id="mobile-menu-container">
                     <FontAwesomeIcon id="close-menu" icon={faTimes} onClick={toggleMenu} />
                     <div id="mobile-menu">
                         <Link to="/"  onClick={closeMenu}>Home</Link>
                         <Link to="/resume"  onClick={closeMenu}>Resume</Link>
                         <Link to="/projects"  onClick={closeMenu}>Projects</Link>
-                        <Link to="/message" onClick={closeMenu}>Contact me</Link>
+                       <Link to="#f" onClick={scrollToFooter}>Contact me</Link>
+                        
+                  
                     </div>
-                </div>
+                   </div>
+               
+
+
+
             )}
          
       </div>

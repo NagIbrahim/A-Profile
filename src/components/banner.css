@@ -4,15 +4,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0; /* Initially hidden */
+    animation: fadeInUp 0.01s forwards; /* Fade-in animation */
   }
+  /* Image styles */
  .about img {
     width:480px;
     height:480px;
     object-fit: cover;
     border-radius: 50%;
     object-position: top;
-
+    animation: fadeInUp 1s forwards;
+    animation-delay:0.01s; /* Delay for the image */
   }
+  /* Right side styles */
   .about-right {
     width:480px;
     display: flex;
@@ -20,6 +25,9 @@
     justify-content: center;
     align-items: center;
     margin-left:30px;
+    opacity: 0; /* Initially hidden */
+    animation: fadeInUp 1s forwards;
+    animation-delay:0.01s; /* Delay for text and buttons */
   }
   .about-right h1 {
     font-size:100px;
@@ -33,6 +41,13 @@
     line-height: 1.6em;
     letter-spacing: 1.2px;
   }
+
+  /* Text styles */
+.about-right h1, .about-right h4, #p-about {
+  animation: fadeInUp 0.01s forwards;
+  animation-delay: 0.01s; /* Same delay for text */
+}
+/* Button container */
   #button-container {
     width: 100%;
     display: flex;
@@ -40,7 +55,11 @@
     align-items: center;   
     margin-top:20px; 
     margin-right: 50px;
-  }
+    opacity: 0; /* Initially hidden */
+    animation: fadeInUp 1s forwards;
+    animation-delay: 1s; /* Delay for button container */
+}
+  /* Button styles */
   #button-container a {
     display: flex;
     justify-content: center;
@@ -53,7 +72,12 @@
     transition: 0.7s;
     border:1px solid black;
     color:black;
+    opacity: 0; /* Initially hidden */
+    animation: fadeInUp 1s forwards;
+    animation-iteration-count: 1; /* Ensure animation runs only once*/
   }
+
+  /* Specific button styles */
   #resume {
     background-color:#EEA302;
     color: white;
@@ -61,18 +85,31 @@
   #projects {
     background-color:#FF3825;
     color: white;
+    animation-delay:1.5s; /* Delay for the first button */
   }
+
   #contact {
     background-color:#80D8DA;
     color: white;
+    animation-delay:2.5s; /* Delay for the third button */
   }
   #button-container a:hover {
     background-color: white;
     /* Change background color to white on hover */
     color: black;
-    /* Change text color to black on hover */
+    
   }
-
+/* Keyframe animations */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
 
 
  /*media query */
@@ -178,7 +215,10 @@
     .about {
      
       flex-direction: column-reverse;   
-      justify-content: flex-end;   
+      justify-content: flex-end;  
+      height: 670px; 
+      opacity: 0; /* Initially hidden */
+      animation: fadeInUp 0.01s forwards; 
     }  
 
 
@@ -187,7 +227,8 @@
       margin-bottom: 10px;
       margin-top: 100px;
       margin-left: 0px;
-      
+      animation: fadeInUp 0.1s forwards;
+      animation-delay:0.1s;   
     }
     .about-right h1 {
       font-size:35px;
@@ -207,6 +248,27 @@
       margin-right: 0;
      
     }
+
+    #resume {
+      background-color:#EEA302;
+      color: white;
+    }
+    #projects {
+      background-color:#FF3825;
+      color: white;
+      animation-delay:0.1s; /* Delay for the first button */
+    }
+  
+    #contact {
+      background-color:#80D8DA;
+      color: white;
+      animation-delay:0.1s; /* Delay for the third button */
+    }
+
+    #button-container{
+    animation: fadeInUp 0.1s forwards;
+    animation-delay: 0.1s;
+    }
     #button-container a {
       width:80px;
       height:80px;
@@ -215,6 +277,9 @@
    .about img{
      width:250px;
      height:250px;
+     animation: fadeInUp 0.1s forwards;
+     animation-delay:0.1s; 
    }
+
    
   }

@@ -3,6 +3,16 @@ import { Link } from "react-router-dom"
 import "./banner.css"
 
 function Banner() {
+
+  
+  const scrollToFooter = () => {
+    const footer = document.getElementById('f');
+    if (footer) {
+      footer.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <div className='about'>
     
@@ -31,11 +41,13 @@ committed to clean code & collaboration. Eager to learn & contribute meaningfull
        <Link to="/projects" id="projects">
           Projects
         </Link>
-        
+{/*         
        <Link to="/contact" id="contact">
           Contact
-        </Link>
+        </Link> */}
 
+
+        <Link to="#f" onClick={scrollToFooter} id="contact">Contact</Link>
       </div>
       </div>
       </div>

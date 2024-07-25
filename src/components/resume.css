@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;  
+    margin-bottom: 70px;
    
 }
 
@@ -65,7 +66,7 @@ margin-top: 70px;
 }
 
 #profile{
-    width:1200px;
+    width:1400px;
     margin-top: 70px;
     padding-left:5%;
     padding-right:5%;
@@ -280,9 +281,9 @@ a:hover{
 
 
   @media only screen  and (max-width:1300px){
-
-    #profile, #res-b,#line, .h-line{
-        width:90%;
+ 
+   #profile,  #res-b,#line, .h-line{
+        width:95%;
     }
 
     .res-card-left{
